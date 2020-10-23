@@ -1,0 +1,1032 @@
+---
+title: "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem"
+subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+author: 
+  - "Maxwel Coura Oliveira, PhD"
+
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: [default, fc, robot-fonts]
+    nature:
+#      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1335AE",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF"
+)
+```
+
+# Quem sou eu?
+
+- Maxwel Coura Oliveira (maxweloliveira@unoeste.br)
+
+.pull-left[
+
+- Minha história acadêmica
+
+    - **Graduação**: UFVJM 
+
+    - **Mestrado**: UFVJM 
+
+    - **Doutorado**: University of Nebraska-Lincoln
+
+    - **Pós-doutorado**: University of Wisconsin-Madison
+    
+    - **Professor**: Universidade do Oeste Paulista
+    
+    - **Blog**: [https://maxweeds.rbind.io/pt/](https://maxweeds.rbind.io/pt/)
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/maxwel_2.jpg")
+```
+]
+
+
+
+---
+
+# O que valos falar hoje?
+
+
+
+
+
+
+
+
+---
+
+# O que é uma planta daninha?
+--
+
+
+- Plantas que crescem em um local indesejável
+--
+
+
+- Uma planta fora do lugar
+--
+
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-450.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D733c81c2-308e-45c8-a0bb-07ee75545b70%26groupId%3D1841%26t%3D1372797454178")
+```
+]
+
+- Quais plantas são essas?
+
+- São plantas daninhas?
+
+---
+
+# O que é uma planta daninha?
+
+
+- Uma planta é daninha por que possui certas características que as diferenciam de outras plantas
+
+
+> Plantas que interferem no crescimento de plantas desejáveis e são incomumente persistentes. Eles danificam os sistemas de cultivo de alto valor, os sistemas naturais e as atividades humanas e por isso são indesejáveis
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/EeQNnXWXsAA-DzM?format=jpg&name=large")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=220, fig.align='center'}
+knitr::include_graphics("https://cdn6.dissolve.com/p/D869_39_138/D869_39_138_1200.jpg")
+```
+]
+
+
+
+# Efeitos indesejáveis
+
+- Impacto na produtividade de plantas de alto valor 
+
+.pull-left[
+Sem planta daninha
+]
+
+.pull-right[
+Com planta daninha
+]
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/DjYfzYpX4AEwny5?format=jpg&name=large")
+```
+
+
+---
+
+# Efeitos indesejáveis
+
+- Impacto na produtividade de plantas de alto valor 
+
+
+.pull-left[
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/DjYfyiaW4AAnHXf?format=jpg&name=large")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&name=small")
+```
+]
+
+---
+
+# Impacto em animais
+
+- **Veneno**: cafezinho (*Palicourea marcgravi*)
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://rehagro.com.br/blog/wp-content/uploads/2018/06/plantas-toxicas-de-importancia-pecuaria4.jpg")
+```
+
+
+---
+
+# Impacto em animais
+
+- **Pastejo**: Diminuição da oferta para os animais
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("https://pastoextraordinario.com.br/wp-content/uploads/2018/11/Pasto_Extraordinario_Como_contolar_plantas_daninhas_nas_pastagens_MG-1024x768.png")
+```
+
+
+
+
+---
+
+## Classificação de plantas daninhas
+
+- **História da vida** - ciclo de vida, estação do crescimento, época e método de reprodução (por exemplo: verão / inverno anual, bianunal, perene)
+
+    - **Anuais**: As espécies anuais são plantas que completam seu ciclo vegetativo e reprodutivo no período máximo de um ano
+
+    - **Bianuais**: As bianuais, normalmente, ultrapassam um ano chegando a completar seu ciclo em até dois anos
+
+    - **Perenes**: Uma planta perene ou simplesmente perene é uma planta que vive mais de dois anos
+
+
+---
+
+
+# Classificação de plantas daninhas
+
+
+## **Classificação por estratégia evolutiva** 
+
+- **Tolerantes ao estresse**: São aquelas que existem em ambientes de alto estresse. Habitats sombreados e/ou com baixo teor de nutrientes
+    - Floresta amazônica, deserto
+
+- **Competidoras**: São espécies de plantas que prosperam em áreas de estresse e perturbação de baixa intensidade e se destacam na competição biológica. Essas espécies são capazes de competir com outras plantas aproveitando com mais eficiência os recursos disponíveis
+    - Pastagens 
+        
+- **Ruderal**: É uma espécie de planta que é a primeira a colonizar áreas perturbadas. O distúrbio pode ser natural - por exemplo, incêndios florestais ou queimadas - ou uma consequência da atividade humana, como construção ou agricultura
+    - Agricultura, pastagens
+
+---
+
+# Por que as plantas daninhas invadem?
+
+- Agroecossistemas versus Ecossistemas Naturais
+
+
+.pull-left[
+```{r echo=FALSE, out.width=400, fig.align='center', fig.pos= "middle"}
+knitr::include_graphics("images/amazon.jpeg")
+```
+]
+
+.pull-right[
+
+```{r echo=FALSE, out.width=400, fig.align='center', fig.pos= "middle"}
+knitr::include_graphics("images/agroeco.jpg")
+```
+
+]
+
+- As plantas daninhas/invasoras invadem os ecossistemas de maneira semelhante?
+
+---
+
+# Sistemas de pastagens 
+
+- Qual sistema tem maior possibilidade de invasão de plantas daninhas?
+
+.pull-left[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/gado.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/gado_2.jpeg")
+```
+]
+
+
+
+
+---
+
+# Sistemas de integração
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/gado_3.jpeg")
+```
+
+
+
+
+
+---
+
+# O banco de sementes
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank_2.png")
+```
+
+
+---
+
+# O ciclo de vida de uma planta daninha anual
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/seedbank.png")
+```
+
+
+
+---
+
+# O ciclo de vida de uma planta daninha anual
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/ciclo_2.png")
+```
+
+
+---
+
+# Contabilizando as plantas daninhas
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/contabilizando.png")
+```
+
+
+
+
+
+---
+
+# Manejo Integrado de Plantas Daninhas (MIPD)
+
+
+.pull-left[
+
+- Prevenção
+
+- Erradicação
+
+- Controle
+  - Cultural
+  - Mecânico
+  - Biológico
+  - Químico
+
+]
+--
+
+
+.pull-right[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/MIPD.png")
+```
+]
+
+
+---
+
+# Prevenção
+
+
+**Quarentena**  são usadas para isolar e previnir a propagação de plantas nocivas
+  
+
+  
+> **Fato:** "Cerca de 85% das plantas que chegam ao País para fins de pesquisa estão contaminadas com pragas" (EMBRAPA)
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/cow.png")
+```
+
+
+
+---
+
+
+# Prevenção
+
+
+**Lei de sementes**  são decretadas para garantir a pureza de sementes de culturas de alto valor econômico e prevenir a dispersão de sementes de plantas daninhas
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/cert_sementes.jpg")
+``` 
+
+
+Acesse aqui a [Lei de sementes no Brasil](http://www.planalto.gov.br/ccivil_03/LEIS/2003/L10.711.htm)
+
+
+
+---
+
+# Prevenção
+
+
+
+**Lei de plantas daninhas** são decretadas para obrigar as autoridades locais e proprietários a executar medidas de saneamento de plantas daninhas em propriedades rurais, rodovias, ferrovias, áreas não agrícolas e outras
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/nocivas.jpg")
+``` 
+
+---
+
+# Prevenção
+
+
+**Educação** para prevenir a propagação de plantas daninhas requer que individuos sejam capazes de identificar espécies de plantas daninhas/invasoras.
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/education.png")
+``` 
+
+---
+
+# Prevenção
+
+## Precauções além de leis e regulações
+
+- Não deixe plantas indesejáveis reproduzirem
+--
+
+
+- Não espalhe sementes em áreas não infestadas
+--
+
+
+- Não espalhe estruturas reprodutivas de plantas daninhas ou invasoras
+--
+
+
+- Não alimente animais com material contaminado com sementes ou propagulos de plantas daninhas/invasoras
+--
+
+
+- Limpeza de equipamentos, máquinas, colheitadoras, implementos etc
+--
+
+
+- Elimine plantas daninhas antes da fase reprodutiva
+
+
+
+---
+
+# Prevenção
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/cleaning.jpg")
+``` 
+
+
+---
+
+
+# Manejo Integrado de Plantas Daninhas
+
+
+## Três princípios:
+
+- Abaixar a densidade de equilíbrio para um nível tolerável
+--
+
+
+- Reduzir a adequação relativa (e efeito) da planta daninha (aumenta a tolerância)
+--
+
+
+- Mudar a composição das comunidades de plantas daninhas para plantas menos agressivas e fáceis de manejar
+--
+
+
+---
+
+# Controle cultural
+
+- Sementes competitivas
+
+- Integração lavoura pecuária
+
+- Sistemas agroflorestais
+
+
+
+---
+
+# Conhecer a planta daninha
+
+
+
+---
+
+# Classificação dos Herbicidas no Brasil
+
+- Mecanismos de ação (Folha 1) - https://maxweeds.rbind.io/post/chart/Chart_Herbicida.pdf
+
+```{r echo=FALSE, out.width=850, fig.align='center'}
+knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
+```
+
+
+
+---
+
+# Classificação dos Herbicidas no Brasil
+
+- Combincação de herbicidas (Folha 2)
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
+```
+
+---
+
+# Controle químico
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/culturas.png")
+```
+
+
+
+---
+
+# Herbicidas registrados para pastagens
+
+| Grupo | Ingrediente ativo    | Quantidade | Produto comercial 
+|-------------------|----------------------|:------------:|-----------------|      
+| G                 | glifosato            | 67         | Nufosate e outros |
+| O                 | 2,4-D                | 39         | DMA 806 BR e outros |
+| O                 | picloram             | 15         | Danado e outros       |
+| O                 | triclopir-butotilico | 10         | Garlon e outros    |
+| B                 | metsulfurom-metilico | 6          | Ally e outros       |
+| C1,2              | tebutiurom           | 2          | Lava 100, Graslan 100            |
+| O                 | Fluroxipir-meptilico | 1          | Starane 200         |
+| E                 | carfentrazona-etílica| 1          | Spotlight           |
+| E                 | saflufenacil         | 1          | Heat                |
+| B                 | imazetapir           | 1          | Imazetapir 106 BR   |
+Fonte: Agrofit Mapa
+
+
+---
+
+# Herbicidas registrados para pastagens
+
+| Grupo | Ingrediente ativo      | Quantidade | Produto comercial                  |
+|-------------------|---------------------------|:------------:|-----------------------------|
+| O + O   | 2,4-D + picloram     | 31         |  Jacaré e outros    |
+| O + O   | fluroxipir-meptilico + picloram    |  10        | Arreio e outros    |
+| O + O   | 2,4-D + aminopiralide   |   9        | Tordon XT e outros         |
+| O + O + O  | aminopiralide + picloram + triclopir-butotilico |  3    | Dominum XT, Trueno XT, Planador XT |
+| O + O + O  | aminopiralide + fluroxipir-meptilico + picloram |  3 | DominumXT-S, PlanadorXT-S, TruenoXT-S    |
+| O + O  | aminopiralide + fluroxipir-meptilico        |    2       | Dominum, Trueno    |
+| O + O  | fluroxipir-meptilico + triclopir-butotilico |    2       | Truper          |
+| O + B  | aminopiralide + metsulfurom-metilico        |    1       | Chaparral          |
+| B + B  | imazapique + imazapir                       |    1       | Kifix              |
+| O + O  | picloram + triclopir-butotilico             |   1        | Togar TB            |
+
+---
+
+
+
+143 Produtos comerciais (10 ingredientes ativos - 5 MdA)
+
+63 produtos misturados (8 ia - 2 MdA)
+
+
+---
+
+# Plantas daninhas 
+
+- Plantas controladas com os herbicidas registrados para pastagens
+
+- 108 espécies (89 dicot e 19 monocot)
+
+```{r echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("images/cloud.png")
+```
+
+---
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/especies.png")
+```
+
+
+---
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/MdA.png")
+```
+
+---
+
+class: inverse, center, middle
+
+# Grupo G (Inibidores da EPSPS)
+
+glifosato
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/glyphosate.png")
+```
+
+---
+
+
+# Grupo G (Inibidores da EPSPS)
+
+## Glifosate (Várias formulações)
+
+.pull-left[
+- Herbicida não-seletivo
+
+- Dessecação/Renovação de pastagens
+
+- Aplicação foliar dirigida
+
+- Dose (0,5 a 2,5 kg ae ha<sup>-1</sup>)
+
+- Amplo espectro de controle
+]
+
+
+.pull-right[
+
+- Aplicação dirigida
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/foliar_1.png")
+```
+
+]
+
+
+---
+
+class: inverse, center, middle
+
+# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+
+tebutiuron
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/grupo_c12.png")
+```
+
+
+---
+
+# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+
+tebutiuron
+
+
+
+
+
+
+---
+
+class: inverse, center, middle
+
+# Grupo B (Inibidores da ALS)
+
+imazapique + imazapir, imazetapir
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/grupo_b.png")
+```
+
+---
+
+# Grupo B (Inibidores da ALS)
+
+.pull-left[
+- **imazapique + imazapir** (Kifix<sup>®</sup> - 300 - 400 pc ha<sup>-1</sup>)
+
+- Controle de capim-navalha (*Paspalum urvillei*)
+
+- PÓS com pastagem formada (> 1 ano)
+
+- Pode ser observado clorose até 90 dias
+
+```{r echo=FALSE, out.width=170, fig.align='center'}
+knitr::include_graphics("images/kifyx.png")
+```
+]
+
+
+
+.pull-right[
+
+- **imazetapir**
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/navalha.jpg")
+```
+]
+
+
+---
+
+# Grupo B (Inibidores da ALS)
+
+
+- **metsulfurom-metilico** (Ally<sup>®</sup> - 6,6 a 13,3 g pc ha<sup>-1</sup> + OM)
+
+- Pré e pós-emergência
+
+- Aplicação em área total ou localizada
+
+> Controla pastagens desejáveis
+
+
+.pull-left[
+```{r echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("images/gervao_branco.jpg")
+```
+]
+
+.pull.right[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/rhombifolia_5.png")
+```
+]
+
+---
+
+class: inverse, center, middle
+
+# Grupo E (Inibidores da PPO/PROTOX)
+
+carfentrazona-etílica, saflufenacil
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/grupo_e.png")
+```
+
+
+
+
+---
+
+# Grupo E (Inibidores da PPO/PROTOX)
+
+- **carfentrazona-etílica** (Spotlight<sup>®</sup> 75 a 125 mL pc ha<sup>-1</sup>)
+
+.pull-left[
+
+- Aplicação foliar em área total
+
+- Herbicida de contato / cobertura
+
+- PÓS-emergência
+
+- Reforma: 30 a 60 dias após o plantio
+
+> Aplicar em epóca de época de intenso crescimento das plantas daninhas
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/spotlight.png")
+```
+
+]
+
+
+
+.pull-right[
+- corda de viola
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("https://plants.usda.gov/gallery/large/ipni_002_lhp.jpg")
+```
+
+
+
+- trapoeraba
+```{r echo=FALSE, out.width=150, fig.align='center'}
+knitr::include_graphics("https://plants.usda.gov/gallery/large/coco3_006_lvp.jpg")
+```
+]
+
+
+---
+
+# Grupo E (Inibidores da PPO/PROTOX)
+
+
+- **saflufenacil** (Heat<sup>®</sup> 70-100 g pc ha<sup>-1</sup>)
+
+.pull-left[
+
+> *Brachiaria brizantha*, *Brachiaria decumbens* e *Panicum maximum* cv. Tobiatã.
+
+- Aplicação foliar em área total
+
+- Pós-emergência
+
+- Planta daninha (2 a 8 folhas)
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/heat.png")
+```
+
+]
+
+
+.pull-right[
+- guanxuma
+```{r echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("images/rhombifolia_5.png")
+```
+
+
+
+- buva 
+```{r echo=FALSE, out.width=170, fig.align='center'}
+knitr::include_graphics("https://plants.usda.gov/gallery/large/coca5_007_lvp.jpg")
+```
+]
+
+---
+
+class: inverse, center, middle
+
+# Grupo O (Mimetizadores da auxina)
+
+aminopiralide, picloram, fluroxipir-meptílico, triclopir-butotílico, 2,4-D
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/mimetiza.png")
+```
+
+
+
+---
+
+# Grupo O (Mimetizadores da auxina)
+
+| Grupo | Família química            | Ingrediente ativo    |
+|-------|----------------------------|----------------------|
+|       | Carboxilatos de piridina   | aminopiralide        |
+|       |                            | picloram             |
+| O     | Carboxilatos de piridiloxi | fluroxipir-meptílico |
+|       |                            | triclopir-butotílico |
+|       | Carboxilatos de fenoxi     | 2,4-D                |
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## 2,4-D + picloram (Jacaré<sup>®</sup> - 3,5 a 5 L pc ha<sup>-1</sup>)
+
+- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
+
+
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## fluroxipir-meptilico + picloram (Arreio Pasto - 1,5 a 2,5 L pc ha<sup>-1</sup>)
+
+- Jato dirigido
+
+- Reforma e manutençaaão de peastagem / área total 
+
+
+---
+
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## 2,4-D + aminopiralide (Tordon XT<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
+
+- Reforma e manutenção de pastagem
+
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+- **aminopiralide + picloram + triclopir-butotilico** (XT<sup>®</sup> - 0,5 a 5 L pc ha<sup>-1</sup>)
+
+- **aminopiralide + fluroxipir-meptilico + triclopir-butotilico** (XT-S<sup>®</sup>)
+
+- 3 mecanismos de ação
+
+- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
+
+- Pós-emergente de plantas daninhas
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## aminopiralide + fluroxipir-meptilico + picloram 
+
+
+
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## aminopiralide + fluroxipir-meptilico
+
+
+
+
+---
+
+
+# Grupo 0 (Mimetizadores da auxina)
+
+## fluroxipir-meptilico + triclopir-butotilico (Truper<sup>®</sup> - 2 a 4 L pc ha<sup>-1</sup>)
+
+- Aplicação foliar área total / dirigida (costal)
+
+-  Folhas largas, semi-arbustivas e arbustivas em áreas de pastagens de gramíneas forrageiras
+
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+
+- **picloram** (Danado<sup>®</sup> - 1 a 2 L pc ha<sup>-1</sup> em 100 L)
+
+- **picloram + triclopir-butotilico** (Tolgar TB)
+
+- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
+
+- Corte e aplicação no toco
+
+- Trate a circunferência de caules e todo o topo de pequenos caules
+
+
+
+
+.pull-left[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/invasive_5.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/invasive_4.jpg")
+```
+]
+
+
+---
+
+# Métodos de aplicação de hebicidas no tronco
+
+
+.pull-left[
+```{r echo=FALSE, out.width=325, fig.align='center'}
+knitr::include_graphics("images/invasive_1.jpg")
+```
+
+```{r echo=FALSE, out.width=325, fig.align='center'}
+knitr::include_graphics("images/invasive_2.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/invasive_3.jpg")
+```
+
+```{r echo=FALSE, out.width=280, fig.align='center'}
+knitr::include_graphics("images/invasive_6.jpg")
+```
+]
+
+
+---
+
+# Grupo 0 (Mimetizadores da auxina)
+
+
+## triclopir-butotilico (Garlon<sup>®</sup> 480 BR - 0,4 a 2 L pc ha<sup>-1</sup>)
+
+- Controle em área total e 
+
+- Mistura com óleo diesel em aplicação dirigida
+
+
+
+
+
+---
+
+# Métodos de aplicação de hebicidas
+
+## Aplicação foliar localizada
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/foliar_1.png")
+```
+
+
+---
+
+## Aplicação no tronco
+
+.pull-left[
+```{r echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("images/invasive_7.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/invasive_8.jpg")
+```
+]
+
+
+
+
+
+
+
+---
+
+## Aplicação no solo
+
+
+```{r echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("images/invasive_9.jpg")
+```
+
+

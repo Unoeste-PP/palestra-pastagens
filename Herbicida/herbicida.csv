@@ -1,0 +1,169 @@
+herb_id,nome_comum,nome_sci,prod_com,ia,form,MdA,planta
+1,gervao-branco,Croton glandulosos,Ally,metsulfuron-metilico,seca,B,dicot
+1,capim-braquiaria,Brachiaria decumbens,Ally,metsulfuron-metilico,seca,B,monocot
+1,guanxuma,Sida rhombifolia,Ally,metsulfuron-metilico,seca,B,dicot
+1,capim-humidicola,Brachiaria humidicola,Ally,metsulfuron-metilico,seca,B,monocot
+1,capim-brizantao,Brachiaria brizantha,Ally,metsulfuron-metilico,seca,B,monocot
+2,arranha-gato,Acacia plumosa,Danado,picloram,liquida,O,dicot
+2,espinho-agulha,Barnadesia rosea,Danado,picloram,liquida,O,dicot
+2,unha-de-vaca,Bauhinia variegata,Danado,picloram,liquida,O,dicot
+2,pau-de-angu,Machaerium aculeatum,Danado,picloram,liquida,O,dicot
+2,cipo-de-cobra,Mansoa difficilis,Danado,picloram,liquida,O,dicot
+2,ciganinha,Memora peregrina,Danado,picloram,liquida,O,dicot
+2,leiteiro,Peschiera fuchsiaefolia,Danado,picloram,liquida,O,dicot
+2,aroeirinha,Schinus terebinthifolius,Danado,picloram,liquida,O,dicot
+2,camboata,Tapirira guianensis,Danado,picloram,liquida,O,dicot
+2,amarelinho,Tecoma stans,Danado,picloram,liquida,O,dicot
+3,erva-quente,Spermacoce alata,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+3,cambara,Lanterna camara,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+3,assa-peixe-branco,Vernonia polyanthes,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+3,espinheiro,Acacia farnesiana,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+3,jurubeba,Solanum paniculatum,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+3,pindoba,Orbigya phalerata,Garlon 480 BR,tricopir-butolitico,liquida,O,dicot
+4,capim-navalha,Paspalum urvillei,Kifix,imazapir + imazapique,seca,B + B,monocot
+5,pata-de-vaca,Bauhinia variegata,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,cabriteiro,Bauhinia curvula,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,chumbinho,Lantana camara,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,aromita,Acacia farnesiana,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,lobeira,Solanum lycocarpum,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,cagaita,Eugenia dysenterica,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,cipó-capeta,Doliocarpus dentatus,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,guanxuma-branca,Sida glaziovii,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,mucunã,Dioclea grandiflora,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,joá-bravo,Solanum acculeatissimum,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,malva-relógio,Sida acuta cv carpinifolia,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,fedegoso-branco,Senna obtusifolia,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,fedegoso,Hyptis suaveolens,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+5,erva-quente,Spermacocce latifolia,Planador XT,aminopiralide + picloram + triclopir-butolitico,liquida,O + O + O,dicot
+6,guanxuma,Sida santaremnensis,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,casadinha,Eupatorium squalidum,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,guanxuma,Sida rhombifolia,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,guanxuma-branca,Sida glaziovii,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,assa-peixe-branco,Vernonia polyanthes,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,carqueja,Baccharis trimera,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,agriaozinho,Synedrellopsis grisebachii,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,cheirosa,Hyptis suaveolens,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,fedegoso-branco,Senna obtusifolia,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,gervao-branco,Croton glandulosos,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+6,malva-branca,Sida cordifolia,Tordon XT,"2,4-D + aminopiralide ",liquida,O + O,dicot
+7,assa-peixe-roxo,Vernonia westiniana,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,malva-branca,Waltheria indica,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,assa-peixe-branco,Vernonia polyanthes,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,dormideira,Mimosa pudica,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,guanxuma,Sida rhombifolia,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,guanxuma,Sida santaremnensis,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,caraguata,Eryngium horridum,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+7,casadinha,Eupatorium squalidum,Truper,fluorxipir-meptilico + triclopir-butolitico,liquida,O + O,dicot
+8,arranha-gato,Acacia plumosa,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,vassourinha,Baccharis coridifolia ,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,carqueja,Baccharis trimera,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,picão-preto,Bidens pilosa,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,buva,Conyza bonariensis,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,capixingui,Croton floribundus,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,aguapé,Eichhornia crassipes ,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,mata-pasto ,Eupatorium laevigatum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,amendoim-bravo,Euphorbia heterophylla,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,leiteiro,Peschiera fuchsiaefolia,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,tanchagem,Plantago major,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,erva-de-bicho,Polygonum punctatum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,samambaia,Pteridium aquilinum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,flor-das-almas,Senecio brasiliensis,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,guanxuma,Sida rhombifolia,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,lobeira,Solanum lycocarpum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,jurubeba,Solanum paniculatum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,amor-de-cunha,Solanum rugosum,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,joá-bravo,Solanum sisymbriifolium,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,erva-lanceta,Solidago chilensis,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,tojo,Ulex europaeus,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,assa-peixe-branco,Vernonia polyanthes,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+8,assa-peixe,Vernonia tweediana,Jacare,"2,4-D + picloram",liquida,O + O,dicot
+9,joa-bravo,Solanum sisymbriifolium,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,malva-branca,Sida cordifolia,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,amarelinho,Tecoma stans,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,unha-de-vaca,Bauhinia variegata,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,leiteiro,Peschiera fuchsiaefolia,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,guanxuma,Sida rhombifolia,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,assa-peixe-branco,Vernonia polyanthes,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,mata-pasto,Eupatorium maximilianii,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+9,fedegoso-branco,Senna obtusifolia,Arreio Pasto,fluorxipir-meptilico + picloram,liquida,O + O,dicot
+10,malicia,Mimosa pudica,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,fedegoso-branco,Senna obtusifolia,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,malva-branca,Sida cordifolia,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,guanxuma,Sida rhombifolia,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,erva-quente,Spermacoce latifolia,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,malva-roxa,Urena lobata,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+10,malva-branca,Waltheria americana,Chaparral,aminopiralide + metsulfuron-metilico,liquida,O + B,dicot
+11,ata-brava,Duguetia furfuracea,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,ciganinha,Memora peregrina,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,jurema-preta,Mimosa hostilis,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,pindoba,Orbigya phalerata,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,leiteiro,Peschiera fuchsiaefolia,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,limaozinho,Polygala klotzschii,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,goiabinha,Psidium guineense,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,angelica,Randia armata,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,aroeirinha,Schinus terebinthifolius,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,ipe-branco,Tabebula chrysotricha,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+11,camboata,Tapirira guianensis,Togar,triclopir-butolitico + picloram,liquida,O + O,dicot
+12,gervao-branco,Croton glandulosos,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,casadinha,Eupatorium squalidum,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,cheirosa,Hyptis suaveolens,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,fedegoso-branco,Senna obtusifolia,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,malva-branca,Sida obtusifolia,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,guanxuma-branca,Sida cordifolia,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,guanxuma,Sida glaziovii,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,guanxuma,Sida rhombifolia,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,agriaozinho,Synedrellopsis grisebachii,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,assa-peixe,Vermonia polyanthes,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+12,assa-peixe-roxo,Vernonia westiniana,Dominum,aminopiralide + fluoroxipir-meptilico,liquida,O + O,dicot
+13,caruru-rasteiro,Amaranthus deflexus,DMA 806 BR,"2,4-D",liquida,O,dicot
+13,beldroega,Portulaca oleracea,DMA 806 BR,"2,4-D",liquida,O,dicot
+13,malva-branca,Sida cordifolia,DMA 806 BR,"2,4-D",liquida,O,dicot
+13,guanxuma,Sida rhombifolia,DMA 806 BR,"2,4-D",liquida,O,dicot
+14,acacia plumosa,Acacia plumosa,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,cipo-folha-de-prata,Banisteriopsis oxyclada,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,espinho-agulha,Baenadesia rosea,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,grao-de-galo,Celtis glycicarpa,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,taboca,Guadua angustifolia,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,camboata,Guarea trichilioides,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,jacaranda-do-campo,Machaerium aculeatum,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,limaozinho,Polygala klotzschii,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,angelica,Rendia armata,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,aroeirinha,Schinus terebinthifolius,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,lobeira,Solamum lycocarpum,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,amarelinho,Tecoma stans,Graslan 100,tebutiuron,seca,"C1,2",dicot
+14,assa-peixe-roxo,Vernonia westiniana,Graslan 100,tebutiuron,seca,"C1,2",dicot
+15,mata-pasto,Eupatorium maximilianii,Starrane 200,fluoroxipir-meptilico,liquida,O,dicot
+15,assa-peixe,Vermonia polyanthes,Starrane 200,fluoroxipir-meptilico,liquida,O,dicot
+15,assa-peixe,Vermonia tweediana,Starrane 200,fluoroxipir-meptilico,liquida,O,dicot
+15,assa-peixe-roxo,Vermonia westiniana,Starrane 200,fluoroxipir-meptilico,liquida,O,dicot
+16,trapoeraba,Commelina benghalensis,Spotlight,carfentrazona-etilica,liquida,E,dicot
+16,corda-de-viola,Ipomoea cairica,Spotlight,carfentrazona-etilica,liquida,E,dicot
+17,buva,Conyza bonariensis,Heat,saflufenacil,liquida,E,dicot
+17,guanxuma,Sida rhombifolia,Heat,saflufenacil,liquida,E,dicot
+18,capim-navalha,Paspalum urvillei,Imazetapir 106,imazetapir,liquida,B,dicot
+19,carrapicho-rasteiro,Acanthspermum australe,Nufosate,glifosato,liquida,G,dicot
+19,carrapicho-de-carneiro,Acanthospermum hispidum,Nufosate,glifosato,liquida,G,dicot
+19,angiquinho,Aeschynomene rudis,Nufosate,glifosato,liquida,G,dicot
+19,mentrasto,Ageratum conyzoides,Nufosate,glifosato,liquida,G,dicot
+19,apaga-fogo,Alternanthera tenella,Nufosate,glifosato,liquida,G,dicot
+19,caruru-roxo,Amaranthus hybridus,Nufosate,glifosato,liquida,G,dicot
+19,caruru-de-mancha,Amaranthus viridis,Nufosate,glifosato,liquida,G,dicot
+19,capim-rabo-de-burro,Andropogon bicornis,Nufosate,glifosato,liquida,G,monocot
+19,capim-rabo-de-raposa,Andropogon leucostachyus,Nufosate,glifosato,liquida,G,monocot
+19,boca-de-leao-selvagem,Antirrhinum orontium,Nufosate,glifosato,liquida,G,dicot
+19,aveia,Avena sativa,Nufosate,glifosato,liquida,G,monocot
+19,capitinga,Axonopus compressus ,Nufosate,glifosato,liquida,G,monocot
+19,picao-preto,Bidens pilosa,Nufosate,glifosato,liquida,G,dicot
+19,capim-braquiaria,Brachiaria decumbens,Nufosate,glifosato,liquida,G,monocot
+19,capim-marmelada,Brachiaria plantaginea,Nufosate,glifosato,liquida,G,monocot
+19,cevadilha,Bromus catharticus,Nufosate,glifosato,liquida,G,monocot
+19,capim-carrapicho,Cenchrus echinatus,Nufosate,glifosato,liquida,G,monocot
+19,buva,Conyza bonariensis,Nufosate,glifosato,liquida,G,dicot
+19,grama-seca,Cynodon dactylon,Nufosate,glifosato,liquida,G,monocot
+19,junquinho,Cyperus difformis,Nufosate,glifosato,liquida,G,monocot
+19,chufa,Cyperus ferax,Nufosate,glifosato,liquida,G,monocot
+19,tiririca,Cyperus flavus,Nufosate,glifosato,liquida,G,monocot
+19,tiririca,Cyperus rotundus,Nufosate,glifosato,liquida,G,monocot
+19,capim-colchao,Digitaria horizontalis,Nufosate,glifosato,liquida,G,monocot
+19,capim-amargoso,Digitaria insularis,Nufosate,glifosato,liquida,G,monocot
+19,capim-arroz,Echinochloa crusgalli,Nufosate,glifosato,liquida,G,monocot

@@ -1,0 +1,148 @@
+---
+title: "herbicida"
+author: "Maxwel Coura Oliveira"
+date: "10/22/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+
+
+```{r}
+herb <- read.csv("herbicida.csv")
+```
+
+
+
+
+
+
+```{r}
+herb %>% 
+  group_by(ia, planta) %>%
+  count() %>% 
+  arrange(desc(n)) %>% 
+  ggplot( 
+       mapping = aes(x = ia, fill = planta)) +
+  geom_bar(position = "fill") +
+  labs(y = "proportion") +
+  coord_flip()
+```
+
+```{r}
+herb %>% 
+  group_by(ia, planta) %>%
+  count() %>% 
+  arrange(desc(n)) %>% 
+  ggplot( 
+       mapping = aes(x = reorder(ia,n), y = n, fill=planta)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(name="", values = c("orange", "blue")) +
+  labs(y = "", x="", caption ="Fonte: Bula | Gráfico: Maxwel Coura Oliveira", title = "Número de espécies controladas por herbicidas em pastagens", subtitle = "Agrupadas por espécies monocot e dicot") +
+  coord_flip() + theme_minimal() +
+  theme(legend.position = "bottom",
+        axis.title = element_text(size=13),
+        axis.text = element_text(size=12),
+        legend.text = element_text(size=12),
+        plot.title = element_text(hjust = 1.4, size=13, face="bold"),
+        plot.subtitle = element_text(hjust = -2, size=10),
+        ) +
+  ylim(0,30) +
+  ggsave("especies.png", width=7, height=7)
+```
+
+
+
+```{r}
+herb %>% 
+  group_by(MdA, planta) %>%
+  distinct(nome_sci) %>% 
+  count() %>% 
+  arrange(desc(n)) %>% 
+  ggplot( 
+       mapping = aes(x = reorder(MdA,n), y = n, fill=planta)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(name="", values = c("orange", "blue")) +
+  labs(y = "", x="", caption ="Fonte: Bula | Gráfico: Maxwel Coura Oliveira", title = "Número de espécies controladas por MdA de herbicidas em pastagens", subtitle = "Agrupadas por espécies monocot e dicot") +
+  coord_flip() + theme_minimal() +
+  theme(legend.position = "bottom",
+        axis.title = element_text(size=13),
+        axis.text = element_text(size=12),
+        legend.text = element_text(size=12),
+        plot.title = element_text(hjust = 1.5, size=13, face="bold"),
+        plot.subtitle = element_text(hjust = 0.5, size=10),
+        ) +
+  #ylim(0,30) +
+  ggsave("mda.png")
+```
+
+
+
+
+```{r}
+herb %>% 
+  group_by(planta) %>% 
+  distinct(nome_sci) %>% 
+  count() 
+```
+
+
+
+
+
+```{r}
+library(tidytext)
+library(rcorpora)
+library(topicmodels)
+library(tm)
+library(ggwordcloud)
+```
+
+
+```{r}
+herb_c <- herb %>%
+  unnest_tokens(words, nome_comum) %>% 
+  select(
+         words = words
+         )
+```
+
+
+```{r}
+herb_c <- herb %>%
+#  unnest_tokens(words, nome_comum) %>% 
+    filter(prod_com == "Graslan 100") %>% 
+  select(
+         words = nome_comum)
+```
+
+
+
+```{r}
+herb_source <- VectorSource(herb_c$words)
+herb_corpus <- VCorpus(herb_source)
+```
+
+
+# matrix
+```{r}
+herb_dt <- TermDocumentMatrix(herb_corpus)
+herb_matrix <- as.matrix(herb_dt)
+herb_v <- sort(rowSums(herb_matrix), decreasing=TRUE)
+herb_dt <- data.frame(word = names(herb_v),freq=herb_v)
+```
+
+```{r}
+library(wordcloud)
+
+pal <- brewer.pal(1,"Dark2") #selecting the color palette
+
+#set.seed(1234)
+wordcloud(words = herb_dt$word, freq = herb_dt$freq, min.freq=1, scale=c(2,.35), 
+           random.order=TRUE, rot.per=0.1, colors=pal)
+```
+
