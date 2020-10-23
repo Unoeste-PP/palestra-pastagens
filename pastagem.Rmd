@@ -10,7 +10,7 @@ output:
     lib_dir: libs
     css: [default, fc, robot-fonts]
     nature:
-#      ratio: "16:9"
+      ratio: "16:9"
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -1120,6 +1120,7 @@ knitr::include_graphics("images/spray_1.jpg")
     - Específico para aplicação basal dirigida
     
     - Mistura com óleo diesel em aplicação dirigida
+    
 ---
 
 ## Aplicação basal dirigida
@@ -1128,7 +1129,7 @@ knitr::include_graphics("images/spray_1.jpg")
 knitr::include_graphics("images/invasive_8.jpg")
 ```
 
-----
+---
 
 # Grupo 0 (Mimetizadores da auxina)
 
@@ -1168,9 +1169,9 @@ knitr::include_graphics("images/invasive_8.jpg")
 
 ---
 
-# Métodos de aplicação de hebicidas
+# Considerações com o controle químico
 
-## Aplicação foliar localizada
+## Aplicação foliar localizada/basal?
 
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
@@ -1178,13 +1179,18 @@ knitr::include_graphics("images/foliar_1.png")
 ```
 
 
+---
 
+## Aplicação aérea?
 
-
-
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/aero_2.jpg")
+```
 
 
 ---
+
+## Aplicação em área total?
 
 
 
@@ -1193,3 +1199,37 @@ knitr::include_graphics("images/aero_2.jpg")
 ```
 
 
+---
+
+# Considerações com o controle químico
+
+- Tecnologia de aplicação
+
+    - Volume da calda
+
+    - Bicos
+
+    - Pressão de trabalho
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/bicos.png")
+```
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/drop_1.png")
+```
+
+
+---
+
+# Cuidados
+
+- Classificacão toxicologia/meio ambiente
+
+- Manuseio dos produtos
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/jacare_toxico.png")
+```
