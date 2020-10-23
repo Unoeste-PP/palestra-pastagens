@@ -1,6 +1,6 @@
 ---
 title: "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem"
-subtitle: "&#x2694;&#xFE0F; xaringan +<br/>&#x1F60E; xaringanthemer"  
+subtitle: ""  
 author: 
   - "Maxwel Coura Oliveira, PhD"
 
@@ -164,9 +164,18 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 
 - **Veneno**: cafezinho (*Palicourea marcgravi*)
 
+.pull-left[
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://rehagro.com.br/blog/wp-content/uploads/2018/06/plantas-toxicas-de-importancia-pecuaria4.jpg")
 ```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/cafezinho.png")
+```
+]
 
 
 ---
@@ -430,7 +439,6 @@ knitr::include_graphics("images/education.png")
 
 # Prevenção
 
-
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/cleaning.jpg")
 ``` 
@@ -496,9 +504,46 @@ knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
 knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
 ```
 
+
 ---
 
 # Controle químico
+
+## Alguns conceitos básicos
+
+- Sistêmico vs Contato
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/herb_1.png")
+```
+
+
+---
+
+# Controle químico
+
+## Alguns conceitos básicos
+
+- Seletivo vs Não-seletivo
+
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/selective.jpg")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/nonselective.jpg")
+```
+]
+
+
+---
+
+# Controle químico no Brasil
 
 
 ```{r echo=FALSE, out.width=600, fig.align='center'}
@@ -516,10 +561,10 @@ knitr::include_graphics("images/culturas.png")
 | G                 | glifosato            | 67         | Nufosate e outros |
 | O                 | 2,4-D                | 39         | DMA 806 BR e outros |
 | O                 | picloram             | 15         | Danado e outros       |
-| O                 | triclopir-butotilico | 10         | Garlon e outros    |
+| O                 | triclopir-butolitico | 10         | Garlon e outros    |
 | B                 | metsulfurom-metilico | 6          | Ally e outros       |
 | C1,2              | tebutiurom           | 2          | Lava 100, Graslan 100            |
-| O                 | Fluroxipir-meptilico | 1          | Starane 200         |
+| O                 | fluroxipir-meptilico | 1          | Starane 200         |
 | E                 | carfentrazona-etílica| 1          | Spotlight           |
 | E                 | saflufenacil         | 1          | Heat                |
 | B                 | imazetapir           | 1          | Imazetapir 106 BR   |
@@ -546,10 +591,11 @@ Fonte: Agrofit Mapa
 ---
 
 
+# Herbicidas para pastagens
 
-143 Produtos comerciais (10 ingredientes ativos - 5 MdA)
-
-63 produtos misturados (8 ia - 2 MdA)
+```{r echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("images/produtos.png")
+```
 
 
 ---
@@ -592,6 +638,21 @@ knitr::include_graphics("images/glyphosate.png")
 ```
 
 ---
+
+# Grupo G (Inibidores da EPSPS)
+
+- Herbicida sistemico
+
+- Não-seletivo
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/gly_drybean.jpg")
+```
+
+
+---
+
+
 
 
 # Grupo G (Inibidores da EPSPS)
@@ -637,13 +698,62 @@ knitr::include_graphics("images/grupo_c12.png")
 
 ---
 
+
 # Grupo C1,2 (Inibidores da Fotossíntese no FSII)
 
-tebutiuron
+- Herbicida sistêmico (via xilema)
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/simazine_SB.jpg")
+```
 
 
+---
+
+# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+
+.pull-left[
+- tebutiuron (Graslan 100)
+
+- Controle de espécies arbustivas
+
+- Dose: 20 a 80 g pc ha<sup>-1</sup>
+
+- Produto peletizado
 
 
+- Lobeira
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/lobeiro.jpeg")
+```
+]
+
+
+.pull-right[
+- Jacarandá do campo
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/jaca_do_campo.jpeg")
+```
+]
+
+
+---
+
+## Tebutiuron
+
+- Aplicação: Distribuindo-se o produto uniformemente ao redor da planta em calda ou em peletes
+
+.pull-left[
+```{r echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("images/invasive_7.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("images/invasive_9.jpg")
+```
+]
 
 
 ---
@@ -662,10 +772,37 @@ knitr::include_graphics("images/grupo_b.png")
 
 # Grupo B (Inibidores da ALS)
 
-.pull-left[
-- **imazapique + imazapir** (Kifix<sup>®</sup> - 300 - 400 pc ha<sup>-1</sup>)
+- Herbicidas sistêmicos
 
-- Controle de capim-navalha (*Paspalum urvillei*)
+- Clorose, folhas roxas, retarda o crescimento, inibe raízes
+
+.pull-left[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/imazethapyr_1.jpg")
+```
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/flumetsulam_2.jpg")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/als_3.jpg")
+```
+
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/als_2.jpg")
+```
+]
+
+---
+
+# Grupo B (Inibidores da ALS)
+
+.pull-left[
+- **imazapique + imazapir** (Kifix<sup>®</sup> - 300 a 400 mL pc ha<sup>-1</sup>)
 
 - PÓS com pastagem formada (> 1 ano)
 
@@ -680,8 +817,11 @@ knitr::include_graphics("images/kifyx.png")
 
 .pull-right[
 
-- **imazetapir**
+- **imazetapir** (Imazetapir 106 BR - 3 a 6 L pc ha<sup>-1</sup>)
 
+- Uso de adjuvantes
+
+- Controle de capim-navalha (*Paspalum urvillei*)
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/navalha.jpg")
 ```
@@ -703,13 +843,15 @@ knitr::include_graphics("images/navalha.jpg")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=200, fig.align='center'}
+- Gervão branco
+```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("images/gervao_branco.jpg")
 ```
 ]
 
 .pull.right[
-```{r echo=FALSE, out.width=300, fig.align='center'}
+- Guanxuma (*Sida* spp.)
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
 ]
@@ -726,10 +868,31 @@ carfentrazona-etílica, saflufenacil
 knitr::include_graphics("images/grupo_e.png")
 ```
 
+---
 
+# Grupo E (Inibidores da PPO/PROTOX)
 
+- Herbicidas de contato (foliar)
+
+- Queimam a folha
+
+- Absorvidos pelas raízes
+
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/lactofen_2.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/ppo_01.png")
+```
+]
 
 ---
+
+
 
 # Grupo E (Inibidores da PPO/PROTOX)
 
@@ -756,16 +919,16 @@ knitr::include_graphics("images/spotlight.png")
 
 
 .pull-right[
-- corda de viola
+- corda de viola (*Ipomoea* spp)
 ```{r echo=FALSE, out.width=250, fig.align='center'}
-knitr::include_graphics("https://plants.usda.gov/gallery/large/ipni_002_lhp.jpg")
+knitr::include_graphics("images/corda_viola.jpg")
 ```
 
 
 
-- trapoeraba
-```{r echo=FALSE, out.width=150, fig.align='center'}
-knitr::include_graphics("https://plants.usda.gov/gallery/large/coco3_006_lvp.jpg")
+- trapoeraba (*Commelina* spp.)
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("images/trapoeraba.jpg")
 ```
 ]
 
@@ -795,18 +958,29 @@ knitr::include_graphics("images/heat.png")
 
 
 .pull-right[
-- guanxuma
-```{r echo=FALSE, out.width=200, fig.align='center'}
+- Guanxuma (*Sida* spp.)
+```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
 
 
 
-- buva 
-```{r echo=FALSE, out.width=170, fig.align='center'}
-knitr::include_graphics("https://plants.usda.gov/gallery/large/coca5_007_lvp.jpg")
+- buva (*Conyza* spp.)
+```{r echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("images/bonariensis_03.png")
 ```
 ]
+
+---
+
+## Heat
+
+- Seletivo para gramíneas
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/sharpen.jpg")
+```
+
 
 ---
 
@@ -820,6 +994,41 @@ aminopiralide, picloram, fluroxipir-meptílico, triclopir-butotílico, 2,4-D
 knitr::include_graphics("images/mimetiza.png")
 ```
 
+---
+
+# Grupo O (Mimetizadores da auxina)
+
+- Herbicida sistêmico
+
+- Seletivo para gramíneas
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/auxin.jpg")
+```
+
+
+
+---
+
+# Grupo O (Mimetizadores da auxina)
+
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/leaning.png")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/auxin_2.jpeg")
+```
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/auxin_3.jpg")
+```
+]
 
 
 ---
@@ -834,84 +1043,8 @@ knitr::include_graphics("images/mimetiza.png")
 |       |                            | triclopir-butotílico |
 |       | Carboxilatos de fenoxi     | 2,4-D                |
 
----
 
-# Grupo 0 (Mimetizadores da auxina)
-
-## 2,4-D + picloram (Jacaré<sup>®</sup> - 3,5 a 5 L pc ha<sup>-1</sup>)
-
-- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
-
-
-
-
----
-
-# Grupo 0 (Mimetizadores da auxina)
-
-## fluroxipir-meptilico + picloram (Arreio Pasto - 1,5 a 2,5 L pc ha<sup>-1</sup>)
-
-- Jato dirigido
-
-- Reforma e manutençaaão de peastagem / área total 
-
-
----
-
-
-# Grupo 0 (Mimetizadores da auxina)
-
-## 2,4-D + aminopiralide (Tordon XT<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
-
-- Reforma e manutenção de pastagem
-
-
-
----
-
-# Grupo 0 (Mimetizadores da auxina)
-
-- **aminopiralide + picloram + triclopir-butotilico** (XT<sup>®</sup> - 0,5 a 5 L pc ha<sup>-1</sup>)
-
-- **aminopiralide + fluroxipir-meptilico + triclopir-butotilico** (XT-S<sup>®</sup>)
-
-- 3 mecanismos de ação
-
-- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
-
-- Pós-emergente de plantas daninhas
-
-
----
-
-# Grupo 0 (Mimetizadores da auxina)
-
-## aminopiralide + fluroxipir-meptilico + picloram 
-
-
-
-
-
----
-
-# Grupo 0 (Mimetizadores da auxina)
-
-## aminopiralide + fluroxipir-meptilico
-
-
-
-
----
-
-
-# Grupo 0 (Mimetizadores da auxina)
-
-## fluroxipir-meptilico + triclopir-butotilico (Truper<sup>®</sup> - 2 a 4 L pc ha<sup>-1</sup>)
-
-- Aplicação foliar área total / dirigida (costal)
-
--  Folhas largas, semi-arbustivas e arbustivas em áreas de pastagens de gramíneas forrageiras
-
+- Herbicidas que controlam apenas plantas de folhas largas (dicot)
 
 
 ---
@@ -920,8 +1053,6 @@ knitr::include_graphics("images/mimetiza.png")
 
 
 - **picloram** (Danado<sup>®</sup> - 1 a 2 L pc ha<sup>-1</sup> em 100 L)
-
-- **picloram + triclopir-butotilico** (Tolgar TB)
 
 - Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
 
@@ -966,9 +1097,11 @@ knitr::include_graphics("images/invasive_3.jpg")
 ```
 
 ```{r echo=FALSE, out.width=280, fig.align='center'}
-knitr::include_graphics("images/invasive_6.jpg")
+knitr::include_graphics("images/spray_1.jpg")
 ```
 ]
+
+
 
 
 ---
@@ -976,14 +1109,61 @@ knitr::include_graphics("images/invasive_6.jpg")
 # Grupo 0 (Mimetizadores da auxina)
 
 
-## triclopir-butotilico (Garlon<sup>®</sup> 480 BR - 0,4 a 2 L pc ha<sup>-1</sup>)
+- **triclopir-butotilico** (Garlon<sup>®</sup> 480 BR - 0,4 a 2 L pc ha<sup>-1</sup>)
 
-- Controle em área total e 
+    - Controle em área total
 
-- Mistura com óleo diesel em aplicação dirigida
+    - Mistura com óleo diesel em aplicação dirigida
+
+- **picloram + triclopir-butotilico** (Tolgar TB - 6 a 8% (v/v) - 150 L)
+
+    - Específico para aplicação basal dirigida
+    
+    - Mistura com óleo diesel em aplicação dirigida
+---
+
+## Aplicação basal dirigida
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/invasive_8.jpg")
+```
+
+----
+
+# Grupo 0 (Mimetizadores da auxina)
+
+- **aminopiralide + picloram + triclopir-butotilico** (XT<sup>®</sup> - 0,5 a 5 L pc ha<sup>-1</sup>)
+
+- **aminopiralide + fluroxipir-meptilico + triclopir-butotilico** (XT-S<sup>®</sup>)
+
+- 3 mecanismos de ação
+
+- Controle de plantas daninhas de folha larga de porte arbóreo, arbustivo e sub-arbustivo
+
+- Pós-emergente de plantas daninhas
 
 
 
+---
+
+
+# Grupo 0 (Mimetizadores da auxina)
+
+- **aminopiralide + fluroxipir-meptilico** (Dominum<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
+
+- **fluroxipir-meptilico + picloram** (Arreio Pasto<sup>®</sup> - 1,5 a 2,5 L pc ha<sup>-1</sup>)
+
+- **fluroxipir-meptilico + triclopir-butotilico** (Truper<sup>®</sup> - 2 a 4 L pc ha<sup>-1</sup>)
+
+- **2,4-D + aminopiralide** (Tordon XT<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
+
+- **2,4-D + picloram** (Jacaré<sup>®</sup> - 3,5 a 5 L pc ha<sup>-1</sup>)
+
+    - Aplicação foliar área total / dirigida (costal)
+
+    -  Folhas largas, semi-arbustivas e arbustivas em áreas de pastagens de gramíneas forrageiras
+
+    - Reforma e manutenção de pastagem / área total 
 
 
 ---
@@ -998,22 +1178,6 @@ knitr::include_graphics("images/foliar_1.png")
 ```
 
 
----
-
-## Aplicação no tronco
-
-.pull-left[
-```{r echo=FALSE, out.width=350, fig.align='center'}
-knitr::include_graphics("images/invasive_7.jpg")
-```
-]
-
-.pull-right[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/invasive_8.jpg")
-```
-]
-
 
 
 
@@ -1022,11 +1186,10 @@ knitr::include_graphics("images/invasive_8.jpg")
 
 ---
 
-## Aplicação no solo
 
 
-```{r echo=FALSE, out.width=350, fig.align='center'}
-knitr::include_graphics("images/invasive_9.jpg")
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/aero_2.jpg")
 ```
 
 
