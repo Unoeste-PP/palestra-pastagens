@@ -56,11 +56,29 @@ knitr::include_graphics("images/maxwel_2.jpg")
 ```
 ]
 
+---
+
+# CREA
+
+- Crea Jr núcleo Diamantina, MG
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/crea.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/crea_02.jpg")
+```
+]
+
 
 
 ---
 
-# O que valos falar hoje?
+# O que vamos falar hoje?
 
 
 
@@ -87,17 +105,22 @@ knitr::include_graphics("images/maxwel_2.jpg")
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-450.jpg")
 ```
+
+- Quais plantas são essas?
+
 ]
 
 .pull-right[
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D733c81c2-308e-45c8-a0bb-07ee75545b70%26groupId%3D1841%26t%3D1372797454178")
 ```
-]
-
-- Quais plantas são essas?
 
 - São plantas daninhas?
+]
+
+
+
+
 
 ---
 
@@ -153,6 +176,22 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 ```
 ]
 
+Fonte: Ryan DeWerff - U of Wisconsin-Madison
+
+
+
+
+---
+
+# Efeitos indesejáveis
+
+- Impacto na produtividade de plantas de alto valor 
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/pastagem_weed.jpg")
+```
+
+
 ---
 
 # Impacto em animais
@@ -163,6 +202,7 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://rehagro.com.br/blog/wp-content/uploads/2018/06/plantas-toxicas-de-importancia-pecuaria4.jpg")
 ```
+Imagem: rehagro.com.br
 ]
 
 
@@ -182,39 +222,7 @@ knitr::include_graphics("images/cafezinho.png")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://pastoextraordinario.com.br/wp-content/uploads/2018/11/Pasto_Extraordinario_Como_contolar_plantas_daninhas_nas_pastagens_MG-1024x768.png")
 ```
-
-
-
-
----
-
-## Classificação de plantas daninhas
-
-- **História da vida** - ciclo de vida, estação do crescimento, época e método de reprodução (por exemplo: verão / inverno anual, bianunal, perene)
-
-    - **Anuais**: As espécies anuais são plantas que completam seu ciclo vegetativo e reprodutivo no período máximo de um ano
-
-    - **Bianuais**: As bianuais, normalmente, ultrapassam um ano chegando a completar seu ciclo em até dois anos
-
-    - **Perenes**: Uma planta perene ou simplesmente perene é uma planta que vive mais de dois anos
-
-
----
-
-
-# Classificação de plantas daninhas
-
-
-## **Classificação por estratégia evolutiva** 
-
-- **Tolerantes ao estresse**: São aquelas que existem em ambientes de alto estresse. Habitats sombreados e/ou com baixo teor de nutrientes
-    - Floresta amazônica, deserto
-
-- **Competidoras**: São espécies de plantas que prosperam em áreas de estresse e perturbação de baixa intensidade e se destacam na competição biológica. Essas espécies são capazes de competir com outras plantas aproveitando com mais eficiência os recursos disponíveis
-    - Pastagens 
-        
-- **Ruderal**: É uma espécie de planta que é a primeira a colonizar áreas perturbadas. O distúrbio pode ser natural - por exemplo, incêndios florestais ou queimadas - ou uma consequência da atividade humana, como construção ou agricultura
-    - Agricultura, pastagens
+Imagem: Pasto extraordinario
 
 ---
 
@@ -335,7 +343,7 @@ knitr::include_graphics("images/contabilizando.png")
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/massai.jpeg")
 ```
-Imagem: Tiago Catuchi
+Imagem: Tiago Catuchi, Unoeste
 
 ---
 
@@ -355,7 +363,6 @@ Imagem: Tiago Catuchi
   - Químico
 
 ]
---
 
 
 .pull-right[
@@ -387,6 +394,34 @@ knitr::include_graphics("images/MIPD.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/nde.png")
 ```
+
+
+---
+
+# Conhecer a planta daninha
+
+## Classificação de plantas daninhas
+
+- **História da vida** - ciclo de vida, estação do crescimento, época e método de reprodução (por exemplo: verão / inverno anual, bianunal, perene)
+
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("images/ciclo.png")
+```
+
+
+---
+
+# Conhecer a planta daninha
+
+## Classificação de plantas daninhas
+
+
+- **Classificação por estratégia evolutiva** 
+
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("images/ruderal.png")
+```
+
 
 
 ---
@@ -469,10 +504,74 @@ knitr::include_graphics("images/education.png")
 
 # Prevenção
 
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/wiscweeds.png")
+``` 
+]
+
+.pull-right[
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/cleaning.jpg")
 ``` 
+]
 
+---
+
+# Controle biológico
+
+- Proposta da Embrapa Koller & Nunes (2006) para o controle de ciganinha (*Memora peregrina*)
+
+
+
+.pull-left[
+```{r echo=FALSE, out.width=270, fig.align='center'}
+knitr::include_graphics("images/biologico_1.png")
+``` 
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/biologico_2.png")
+``` 
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=330, fig.align='center'}
+knitr::include_graphics("images/ciganinha.jpeg")
+``` 
+]
+
+
+---
+
+# Controle mecaânico
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/mowing.jpg")
+``` 
+Imagem: i1.wp.com
+
+
+---
+
+# Controle mecânico
+
+- Controle de plantas daninhas arbustivas
+
+- Necessário na integração com herbicidas
+
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/eucalipto.jpeg")
+``` 
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/VNdgEiEcRalhe/giphy.gif")
+``` 
+]
 
 
 ---
@@ -535,36 +634,22 @@ knitr::include_graphics("images/ilp_02.png")
 knitr::include_graphics("images/ilp_03.png")
 ```
 
----
-
-# Conhecer a planta daninha
-
 
 
 ---
 
-# Classificação dos Herbicidas no Brasil
+# Controle químico
 
-- Mecanismos de ação (Folha 1) - https://maxweeds.rbind.io/post/chart/Chart_Herbicida.pdf
 
-```{r echo=FALSE, out.width=850, fig.align='center'}
-knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("https://topsul1.webnode.com/_files/200010668-c3abbc4a56/TopSul%20Not%C3%ADcias%20-%20Crissiumal%20-%20RS%20-%20www.topsulnoticias.com.br%20-%20%20herbicida.jpg")
 ```
-
-
-
----
-
-# Classificação dos Herbicidas no Brasil
-
-- Combinação de herbicidas (Folha 2)
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
-```
+Imagem: topsul1.webnode.com
 
 
 ---
+
+
 
 # Controle químico
 
@@ -599,6 +684,31 @@ knitr::include_graphics("images/nonselective.jpg")
 ```
 ]
 
+---
+
+
+# Classificação dos Herbicidas no Brasil
+
+- Mecanismos de ação (Folha 1) - https://maxweeds.rbind.io/post/chart/Chart_Herbicida.pdf
+
+```{r echo=FALSE, out.width=850, fig.align='center'}
+knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
+```
+
+
+
+---
+
+# Classificação dos Herbicidas no Brasil
+
+- Combinação de herbicidas (Folha 2)
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
+```
+
+
+
 
 ---
 
@@ -614,6 +724,8 @@ knitr::include_graphics("images/culturas.png")
 ---
 
 # Herbicidas registrados para pastagens
+
+- Contendo 1 ingrediente ativo
 
 | Grupo | Ingrediente ativo    | Quantidade | Produto comercial 
 |-------------------|----------------------|:------------:|-----------------|      
@@ -634,6 +746,8 @@ Fonte: Agrofit Mapa
 
 # Herbicidas registrados para pastagens
 
+- Contendo 2 ou 3 ingredientes ativos
+
 | Grupo | Ingrediente ativo      | Quantidade | Produto comercial                  |
 |-------------------|---------------------------|:------------:|-----------------------------|
 | O + O   | 2,4-D + picloram     | 31         |  Jacaré e outros    |
@@ -646,6 +760,7 @@ Fonte: Agrofit Mapa
 | O + B  | aminopiralide + metsulfurom-metilico        |    1       | Chaparral          |
 | B + B  | imazapique + imazapir                       |    1       | Kifix              |
 | O + O  | picloram + triclopir-butotilico             |   1        | Togar TB            |
+Fonte: Agrofit Mapa
 
 ---
 
@@ -665,7 +780,7 @@ knitr::include_graphics("images/produtos.png")
 
 - 108 espécies (89 dicot e 19 monocot)
 
-```{r echo=FALSE, out.width=1000, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/cloud.png")
 ```
 
@@ -781,7 +896,7 @@ knitr::include_graphics("images/simazine_SB.jpg")
 - Produto peletizado
 
 
-- Lobeira
+- Lobeira (*Solanum lycocarpum*)
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/lobeiro.jpeg")
 ```
@@ -789,11 +904,12 @@ knitr::include_graphics("images/lobeiro.jpeg")
 
 
 .pull-right[
-- Jacarandá do campo
-```{r echo=FALSE, out.width=600, fig.align='center'}
+- Jacarandá do campo (*Machaerium acutifolium*)
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/jaca_do_campo.jpeg")
 ```
 ]
+
 
 
 ---
@@ -809,11 +925,34 @@ knitr::include_graphics("images/invasive_7.jpg")
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=450, fig.align='center'}
 knitr::include_graphics("images/invasive_9.jpg")
+```
+
+- Absorção pelas raízes
+]
+
+---
+
+## Tebutiuron
+
+- amarelinho (*Tecoma stans*)
+
+.pull-left[
+Passini et al. (1997)
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/tebu.png")
 ```
 ]
 
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/tecoma.jpg")
+```
+]
+
+- A me no r do se de tebutiuron foi suficiente para matar as plantas
+num período de nove meses após a aplicação do herbicida
 
 ---
 
@@ -867,7 +1006,7 @@ knitr::include_graphics("images/als_2.jpg")
 
 - Pode ser observado clorose até 90 dias
 
-```{r echo=FALSE, out.width=170, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/kifyx.png")
 ```
 ]
@@ -902,7 +1041,7 @@ knitr::include_graphics("images/navalha.jpg")
 
 
 .pull-left[
-- Gervão branco
+- Gervão branco (*Croton glandulosus*)
 ```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("images/gervao_branco.jpg")
 ```
@@ -1032,11 +1171,11 @@ knitr::include_graphics("images/bonariensis_03.png")
 
 ---
 
-## Heat
+## Saflufenacil (Heat)
 
 - Seletivo para gramíneas
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/sharpen.jpg")
 ```
 
@@ -1073,7 +1212,7 @@ knitr::include_graphics("images/auxin.jpg")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/leaning.png")
 ```
 ]
@@ -1082,12 +1221,6 @@ knitr::include_graphics("images/leaning.png")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/auxin_2.jpeg")
 ```
-
-
-```{r echo=FALSE, out.width=600, fig.align='center'}
-knitr::include_graphics("images/auxin_3.jpg")
-```
-]
 
 
 ---
@@ -1104,6 +1237,18 @@ knitr::include_graphics("images/auxin_3.jpg")
 
 
 - Herbicidas que controlam apenas plantas de folhas largas (dicot)
+
+.pull-left[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/assapeixe.jpg")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/agron_2.jpeg")
+```
+]
 
 
 ---
@@ -1137,15 +1282,15 @@ knitr::include_graphics("images/invasive_4.jpg")
 
 ---
 
-# Métodos de aplicação de hebicidas no tronco
+## Métodos de aplicação de hebicidas no tronco
 
 
 .pull-left[
-```{r echo=FALSE, out.width=325, fig.align='center'}
+```{r echo=FALSE, out.width=335, fig.align='center'}
 knitr::include_graphics("images/invasive_1.jpg")
 ```
 
-```{r echo=FALSE, out.width=325, fig.align='center'}
+```{r echo=FALSE, out.width=335, fig.align='center'}
 knitr::include_graphics("images/invasive_2.jpg")
 ```
 ]
@@ -1155,7 +1300,7 @@ knitr::include_graphics("images/invasive_2.jpg")
 knitr::include_graphics("images/invasive_3.jpg")
 ```
 
-```{r echo=FALSE, out.width=280, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/spray_1.jpg")
 ```
 ]
@@ -1171,18 +1316,22 @@ knitr::include_graphics("images/spray_1.jpg")
 .pull-left[
 - **triclopir-butotilico** (Garlon<sup>®</sup> 480 BR - 0,4 a 2 L pc ha<sup>-1</sup>)
 
-    - Controle em área total
-
-    - Mistura com óleo diesel em aplicação dirigida
+    - Controle em área total ou basal dirigida
 
 - **picloram + triclopir-butotilico** (Tolgar TB - 6 a 8% (v/v) - 150 L)
 
     - Específico para aplicação basal dirigida
     
-    - Mistura com óleo diesel em aplicação dirigida
+```{r echo=FALSE, out.width=300, fig.align='center'}
+knitr::include_graphics("images/pindoba_2.png")
+```   
+   
+    
 ]
 
 .pull-right[
+- Mistura com óleo diesel em aplicação dirigida
+
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/invasive_8.jpg")
 ```
@@ -1205,7 +1354,9 @@ knitr::include_graphics("images/invasive_8.jpg")
 
 - Pós-emergente de plantas daninhas
 
-
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/xt.png")
+```
 
 ---
 
@@ -1256,10 +1407,10 @@ knitr::include_graphics("images/aero_2.jpg")
 
 
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/aero_2.jpg")
 ```
-
+Imagem: Bruno C Vieira
 
 ---
 
@@ -1296,7 +1447,8 @@ knitr::include_graphics("images/misapplication.jpeg")
 
 # Tecnologia de aplicação
 
-- Misturas
+- Misturas de herbicidas
+
 
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
@@ -1307,7 +1459,19 @@ knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.
 
 # Cuidados
 
+.pull-left[
 ## Residual de herbicidas (*Carryover*)
+
+]
+
+.pull-right[
+## Deriva
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/auxin_3.jpg")
+```
+]
+
 
 ---
 
@@ -1320,3 +1484,29 @@ knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/jacare_toxico.png")
 ```
+
+
+---
+
+
+# Considerações finais
+
+
+- O manejo de pastagem no Brasil permite a integração com outras culturas 
+
+
+
+
+---
+
+class: inverse, middle, center
+
+# Obrigado
+
+
+Maxwel Coura Oliveira
+
+maxweloliveira@unoeste.br
+
+
+
