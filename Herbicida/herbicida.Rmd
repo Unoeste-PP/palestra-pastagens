@@ -114,7 +114,7 @@ herb_c <- herb %>%
 
 ```{r}
 herb_c <- herb %>%
-#  unnest_tokens(words, nome_comum) %>% 
+  unnest_tokens(words, nome_comum) %>% 
     filter(prod_com == "Graslan 100") %>% 
   select(
          words = nome_comum)

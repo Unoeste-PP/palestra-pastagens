@@ -7,8 +7,8 @@ author:
 date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
-    lib_dir: libs
     css: [default, fc, robot-fonts]
+    lib_dir: libs
     nature:
       ratio: "16:9"
       highlightStyle: github
@@ -51,7 +51,7 @@ style_duo_accent(
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/maxwel_2.jpg")
 ```
 ]
@@ -84,13 +84,13 @@ knitr::include_graphics("images/maxwel_2.jpg")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-450.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D733c81c2-308e-45c8-a0bb-07ee75545b70%26groupId%3D1841%26t%3D1372797454178")
 ```
 ]
@@ -110,34 +110,29 @@ knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D73
 > Plantas que interferem no crescimento de plantas desejáveis e são incomumente persistentes. Eles danificam os sistemas de cultivo de alto valor, os sistemas naturais e as atividades humanas e por isso são indesejáveis
 
 .pull-left[
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("https://pbs.twimg.com/media/EeQNnXWXsAA-DzM?format=jpg&name=large")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=220, fig.align='center'}
+```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("https://cdn6.dissolve.com/p/D869_39_138/D869_39_138_1200.jpg")
 ```
 ]
 
 
+---
 
 # Efeitos indesejáveis
 
 - Impacto na produtividade de plantas de alto valor 
 
-.pull-left[
-Sem planta daninha
-]
 
-.pull-right[
-Com planta daninha
-]
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("https://pbs.twimg.com/media/DjYfzYpX4AEwny5?format=jpg&name=large")
 ```
-
+Imagem: U of Wisconsin-Madison
 
 ---
 
@@ -236,13 +231,27 @@ knitr::include_graphics("images/amazon.jpeg")
 
 .pull-right[
 
-```{r echo=FALSE, out.width=400, fig.align='center', fig.pos= "middle"}
+```{r echo=FALSE, out.width=550, fig.align='center', fig.pos= "middle"}
 knitr::include_graphics("images/agroeco.jpg")
 ```
 
 ]
 
 - As plantas daninhas/invasoras invadem os ecossistemas de maneira semelhante?
+
+
+---
+
+# Sistemas de produção
+
+
+- Plantas daninhas em sistemas de produção (16 anos)
+
+```{r echo=FALSE, out.width=650, fig.align='center'}
+knitr::include_graphics("images/concenco_02.png")
+```
+Fonte: Concenço et al (2011) Dinâmica de Plantas Infestantes em Sistemas Integrados de Cultivo
+
 
 ---
 
@@ -263,16 +272,25 @@ knitr::include_graphics("images/gado_2.jpeg")
 ]
 
 
-
-
 ---
 
-# Sistemas de integração
 
+
+# Sistemas de pastagens 
+
+- Qual sistema tem maior possibilidade de invasão de plantas daninhas?
+
+.pull-left[
 ```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/gado_3.jpeg")
+knitr::include_graphics("images/agron.jpg")
 ```
+]
 
+.pull-right[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/anprosem_1.jpg")
+```
+]
 
 
 
@@ -286,21 +304,12 @@ knitr::include_graphics("images/seedbank_2.png")
 ```
 
 
----
-
-# O ciclo de vida de uma planta daninha anual
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/seedbank.png")
-```
-
-
 
 ---
 
 # O ciclo de vida de uma planta daninha anual
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/ciclo_2.png")
 ```
 
@@ -311,13 +320,22 @@ knitr::include_graphics("images/ciclo_2.png")
 
 
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/contabilizando.png")
 ```
 
 
+---
 
+# Plantas daninhas e sistemas de produção
 
+- Os sistemas de produção não usa todos os recursos (água, nutrientes, luz, etc)
+
+- Campo de produção de sementes de *Panicum maximum* cv.Massai
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/massai.jpeg")
+```
+Imagem: Tiago Catuchi
 
 ---
 
@@ -341,10 +359,34 @@ knitr::include_graphics("images/contabilizando.png")
 
 
 .pull-right[
-```{r echo=FALSE, out.width=300, fig.align='center'}
+```{r echo=FALSE, out.width=380, fig.align='center'}
 knitr::include_graphics("images/MIPD.png")
 ```
 ]
+
+
+---
+
+# Manejo Integrado de Plantas Daninhas
+
+
+## Três princípios:
+
+- Abaixar a densidade de equilíbrio para um nível tolerável
+--
+
+
+- Reduzir a adequação relativa (e efeito) da planta daninha (aumenta a tolerância)
+--
+
+
+- Mudar a composição das comunidades de plantas daninhas para plantas menos agressivas e fáceis de manejar
+--
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/nde.png")
+```
 
 
 ---
@@ -386,22 +428,10 @@ Acesse aqui a [Lei de sementes no Brasil](http://www.planalto.gov.br/ccivil_03/L
 # Prevenção
 
 
-
-**Lei de plantas daninhas** são decretadas para obrigar as autoridades locais e proprietários a executar medidas de saneamento de plantas daninhas em propriedades rurais, rodovias, ferrovias, áreas não agrícolas e outras
-
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/nocivas.jpg")
-``` 
-
----
-
-# Prevenção
-
-
 **Educação** para prevenir a propagação de plantas daninhas requer que individuos sejam capazes de identificar espécies de plantas daninhas/invasoras.
 
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/education.png")
 ``` 
 
@@ -444,37 +474,66 @@ knitr::include_graphics("images/cleaning.jpg")
 ``` 
 
 
----
-
-
-# Manejo Integrado de Plantas Daninhas
-
-
-## Três princípios:
-
-- Abaixar a densidade de equilíbrio para um nível tolerável
---
-
-
-- Reduzir a adequação relativa (e efeito) da planta daninha (aumenta a tolerância)
---
-
-
-- Mudar a composição das comunidades de plantas daninhas para plantas menos agressivas e fáceis de manejar
---
-
 
 ---
 
 # Controle cultural
 
-- Sementes competitivas
+.pull-left[
+- Sementes sadias
 
 - Integração lavoura pecuária
 
 - Sistemas agroflorestais
+]
+
+.pull-right[
+- Quantidade de sementes/ha
+
+- Rotação/sucessão de culturas
+
+- Plantas competitivas
+]
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/gado_3.jpeg")
+```
 
 
+---
+
+# Sistemas ILP
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/ilp_00.png")
+```
+
+.pull-left[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/ilp_01.png")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/ilp_02.png")
+```
+]
+
+---
+
+# Sistemas ILP
+
+- Principio do MIPD
+
+    - Mudar a composição das comunidades de plantas daninhas para plantas menos agressivas e fáceis de manejar
+
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/ilp_03.png")
+```
 
 ---
 
@@ -498,7 +557,7 @@ knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
 
 # Classificação dos Herbicidas no Brasil
 
-- Combincação de herbicidas (Folha 2)
+- Combinação de herbicidas (Folha 2)
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
@@ -1109,6 +1168,7 @@ knitr::include_graphics("images/spray_1.jpg")
 # Grupo 0 (Mimetizadores da auxina)
 
 
+.pull-left[
 - **triclopir-butotilico** (Garlon<sup>®</sup> 480 BR - 0,4 a 2 L pc ha<sup>-1</sup>)
 
     - Controle em área total
@@ -1120,14 +1180,16 @@ knitr::include_graphics("images/spray_1.jpg")
     - Específico para aplicação basal dirigida
     
     - Mistura com óleo diesel em aplicação dirigida
-    
----
+]
 
-## Aplicação basal dirigida
-
+.pull-right[
 ```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/invasive_8.jpg")
 ```
+]
+
+
+
 
 ---
 
@@ -1201,15 +1263,13 @@ knitr::include_graphics("images/aero_2.jpg")
 
 ---
 
-# Considerações com o controle químico
+# Tecnologia de aplicação
 
-- Tecnologia de aplicação
+- Volume da calda
 
-    - Volume da calda
+- Bicos
 
-    - Bicos
-
-    - Pressão de trabalho
+- Pressão de trabalho
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
@@ -1220,7 +1280,34 @@ knitr::include_graphics("images/bicos.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/drop_1.png")
 ```
+---
 
+# Tecnologia de aplicação
+
+- Doses
+
+- Cobertura
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/misapplication.jpeg")
+```
+
+---
+
+# Tecnologia de aplicação
+
+- Misturas
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.gif")
+```
+
+---
+
+# Cuidados
+
+## Residual de herbicidas (*Carryover*)
 
 ---
 
