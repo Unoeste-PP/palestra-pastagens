@@ -14,6 +14,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+#      beforeInit: "macros.js"
 ---
 
 ```{r setup, include=FALSE}
@@ -27,6 +28,25 @@ style_duo_accent(
   secondary_color = "#FF961C",
   inverse_header_color = "#FFFFFF"
 )
+```
+
+
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "Circuito Técnico 26 e 27 - Benefícios do Manejo de Canpos de Sementes Forrageiras e Grandes Sistema ILP",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "maxwel/palestra-pastagens") %>% 
+  meta_social(
+    title = "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem",
+    url = "https://maxweeds.netlify.app/planta-daninha-pastagens",
+    image = "https://alison.netlify.app/latinr-learn/images/web.jpg",
+    image_alt = "A spiderweb from rawpixel",
+    og_type = "website",
+    twitter_card_type = "summary_large_image"
+  )
 ```
 
 # Quem sou eu?
@@ -81,7 +101,34 @@ knitr::include_graphics("images/crea_02.jpg")
 # O que vamos falar hoje?
 
 
+.pull-left[
+- Plantas daninhas?
 
+    - O que são?
+    
+    - Banco de sementes
+    
+    - Planta daninha nos sistemas de produção
+  
+- Manejo integrado de plantas daninhas
+
+    - Prevenção
+    
+    - Controle cultural
+    
+    - Controle biológico
+    
+    - Controle químico
+
+- Foco em pastagens
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/txCo7WXCwZpmM/giphy.gif")
+```
+]
 
 ---
 
@@ -1433,17 +1480,28 @@ knitr::include_graphics("images/xt.png")
 ## Aplicação foliar localizada/basal?
 
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("images/foliar_1.png")
+```{r echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("https://s7d4.scene7.com/is/image/dpagco/IMG_spraying_mesquite_1_Beauty_2_88-1?$textonimage_desktop$")
 ```
-
+Imagem: Corteva-EUA
 
 ---
 
 ## Aplicação aérea?
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/aero_2.jpg")
+```
+Imagem: Bruno C Vieira
+
+---
+
+## Aplicação em área total?
+
+
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/spray.jpg")
 ```
 
 
@@ -1459,16 +1517,6 @@ knitr::include_graphics("images/enxada_quimica_2.png")
 
 ---
 
-## Aplicação em área total?
-
-
-
-```{r echo=FALSE, out.width=800, fig.align='center'}
-knitr::include_graphics("images/aero_2.jpg")
-```
-Imagem: Bruno C Vieira
-
----
 
 # Tecnologia de aplicação
 
@@ -1563,6 +1611,7 @@ knitr::include_graphics("images/jacare_toxico.png")
 - Manejo de plantas daninhas faz parte do sistema de produção de pastagens/sementes
 
     - As plantas daninhas são onipresentes
+--
 
 - O manejo de pastagem no Brasil permite a integração com outras culturas
 
@@ -1571,7 +1620,8 @@ knitr::include_graphics("images/jacare_toxico.png")
     - Integração lavoura pecuária
     
     - Rotação de culturas
-    
+--
+
 - Herbicidas facilitam o manejo de plantas daninhas em pastagens
     
     - Boas opcões de produtos químicos
@@ -1596,3 +1646,24 @@ maxweloliveira@unoeste.br
 
 https://maxweeds.rbind.io/pt/
 
+```{r eval=FALSE, include=FALSE}
+xaringanExtra::use_webcam()
+```
+
+
+```{r xaringan-tachyons, echo=FALSE, include=FALSE}
+xaringanExtra::use_tachyons()
+```
+
+```{r xaringan-tile-view, echo=FALSE, include=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+
+```{r share-again, echo=FALSE, include=FALSE}
+xaringanExtra::use_share_again()
+```
+
+```{r broadcast, echo=FALSE, include=FALSE}
+xaringanExtra::use_broadcast()
+```
