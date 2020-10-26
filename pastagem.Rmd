@@ -45,7 +45,8 @@ meta() %>%
     image = "https://maxweeds.netlify.app/palestra-pastagens/images/pastagem_weed.jpg",
     image_alt = "Uma planta daninha em pastagem",
     og_type = "website",
-    twitter_card_type = "summary_large_image"
+    twitter_card_type = "summary_large_image",
+    twitter_creator = "@maxwelco"
   )
 ```
 
