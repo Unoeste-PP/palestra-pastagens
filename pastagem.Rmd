@@ -4,7 +4,7 @@ subtitle: ""
 author: 
   - "Maxwel Coura Oliveira, PhD"
 
-date: '`r Sys.Date()`'
+date: ''
 output:
   xaringan::moon_reader:
     css: [default, fc, robot-fonts]
@@ -83,6 +83,34 @@ knitr::include_graphics("images/crea_02.jpg")
 
 
 
+---
+
+# Pastagens no Brasil
+
+
+```{r echo=FALSE, out.width=500, fig.align='center'}
+knitr::include_graphics("images/area.gif")
+```
+
+---
+
+# Atlas das pastagens
+
+.pull-left[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/area_1.png")
+```
+]
+
+
+.pull-right[
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/area_2.png")
+```
+]
+
+
+Fonte: https://pastagem.org/ (UFG - LAPIG)
 
 
 
@@ -311,7 +339,13 @@ knitr::include_graphics("images/anprosem_1.jpg")
 knitr::include_graphics("images/seedbank_2.png")
 ```
 
+---
 
+# O banco de sementes
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("images/sementes.png")
+```
+Fonte: Dr. Ricardo Vitoria Filho, Esalq
 
 ---
 
@@ -543,7 +577,7 @@ knitr::include_graphics("images/ciganinha.jpeg")
 
 ---
 
-# Controle mecaânico
+# Controle mecânico
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
@@ -951,7 +985,7 @@ knitr::include_graphics("images/tecoma.jpg")
 ```
 ]
 
-- A me no r do se de tebutiuron foi suficiente para matar as plantas
+- A menor dose de tebutiuron foi suficiente para matar as plantas
 num período de nove meses após a aplicação do herbicida
 
 ---
@@ -1221,7 +1255,7 @@ knitr::include_graphics("images/leaning.png")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/auxin_2.jpeg")
 ```
-
+]
 
 ---
 
@@ -1286,11 +1320,11 @@ knitr::include_graphics("images/invasive_4.jpg")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=335, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/invasive_1.jpg")
 ```
 
-```{r echo=FALSE, out.width=335, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/invasive_2.jpg")
 ```
 ]
@@ -1338,6 +1372,18 @@ knitr::include_graphics("images/invasive_8.jpg")
 ]
 
 
+---
+
+# Controle
+
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/amarelinho_2.png")
+```
+
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("images/amarelinho_1.png")
+```
+
 
 
 ---
@@ -1363,7 +1409,7 @@ knitr::include_graphics("images/xt.png")
 
 # Grupo 0 (Mimetizadores da auxina)
 
-- **aminopiralide + fluroxipir-meptilico** (Dominum<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
+- **fluroxipir-meptilico + aminopiralide** (Dominum<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
 
 - **fluroxipir-meptilico + picloram** (Arreio Pasto<sup>®</sup> - 1,5 a 2,5 L pc ha<sup>-1</sup>)
 
@@ -1403,6 +1449,16 @@ knitr::include_graphics("images/aero_2.jpg")
 
 ---
 
+## Enxada química?
+
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/enxada_quimica_2.png")
+```
+
+---
+
 ## Aplicação em área total?
 
 
@@ -1416,12 +1472,22 @@ Imagem: Bruno C Vieira
 
 # Tecnologia de aplicação
 
+
+.pull-left[
 - Volume da calda
 
 - Bicos
 
 - Pressão de trabalho
+]
 
+.pull-right[
+- Temperatura
+
+- Umidade
+
+- Vento
+]
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/bicos.png")
@@ -1461,12 +1527,15 @@ knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.
 
 .pull-left[
 ## Residual de herbicidas (*Carryover*)
-
+- Picloram em café (Fonte: UFV)
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/picloram.png")
+```
 ]
 
 .pull-right[
 ## Deriva
-
+- Deriva de 2,4-D/dicamba em soja
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/auxin_3.jpg")
 ```
@@ -1491,8 +1560,25 @@ knitr::include_graphics("images/jacare_toxico.png")
 
 # Considerações finais
 
+- Manejo de plantas daninhas faz parte do sistema de produção de pastagens/sementes
 
-- O manejo de pastagem no Brasil permite a integração com outras culturas 
+    - As plantas daninhas são onipresentes
+
+- O manejo de pastagem no Brasil permite a integração com outras culturas
+
+    - Sistemas agroflorestais
+    
+    - Integração lavoura pecuária
+    
+    - Rotação de culturas
+    
+- Herbicidas facilitam o manejo de plantas daninhas em pastagens
+    
+    - Boas opcões de produtos químicos
+    
+    - Faltam dados de posicionamento
+        
+          - Qual a melhor época de aplicação?
 
 
 
@@ -1508,5 +1594,5 @@ Maxwel Coura Oliveira
 
 maxweloliveira@unoeste.br
 
-
+https://maxweeds.rbind.io/pt/
 
