@@ -41,9 +41,9 @@ meta() %>%
   meta_name("github-repo" = "maxwel/palestra-pastagens") %>% 
   meta_social(
     title = "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem",
-    url = "https://maxweeds.netlify.app/planta-daninha-pastagens",
-    image = "https://alison.netlify.app/latinr-learn/images/web.jpg",
-    image_alt = "A spiderweb from rawpixel",
+    url = "https://maxweeds.netlify.app/palestra-pastagens",
+    image = "https://maxweeds.netlify.app/palestra-pastagens/images/pastagem_weed.jpg",
+    image_alt = "Uma planta daninha em pastagem",
     og_type = "website",
     twitter_card_type = "summary_large_image"
   )
