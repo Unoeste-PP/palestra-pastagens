@@ -48,7 +48,7 @@ meta() %>%
   meta_social(
     title = "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem",
     url = "https://maxweeds.netlify.app/palestra-pastagens",
-    image = "https://maxweeds.netlify.app/palestra-pastagens/images/pastagem_weed.jpg",
+    image = "https://maxweeds.netlify.app/palestra-pastagens/images/social-card.png",
     image_alt = "Uma planta daninha em pastagem",
     og_type = "website",
     twitter_card_type = "summary_large_image",
@@ -1921,7 +1921,7 @@ xaringanExtra::use_tile_view()
 ```
 
 
-```{r share-again, echo=FALSE, include=FALSE}
+```{r share-again, echo=FALSE}
 xaringanExtra::use_share_again()
 ```
 
