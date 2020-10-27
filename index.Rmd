@@ -1,8 +1,8 @@
 ---
-title: "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem"
+title: "Manejo de Plantas Daninhas em Sistemas de Culturas Forrageiras"
 subtitle: ""  
 author: 
-  - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 - Benefícios do Manejo de Canpos de Sementes Forrageiras e Grandes Sistema ILP"
+  - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 - Benefícios do Manejo de Campos de Sementes Forrageiras e Grandes Sistema ILP"
 
 date: '27/10/2020'
 output:
@@ -88,8 +88,6 @@ class: middle, center
     - **Pós-doutorado**: University of Wisconsin-Madison
     
     - **Professor**: Universidade do Oeste Paulista
-    
-    - **Blog**: [https://maxweeds.rbind.io/pt/](https://maxweeds.rbind.io/pt/)
 ]
 
 .pull-right[
