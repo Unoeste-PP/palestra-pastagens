@@ -27,13 +27,8 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_duo_accent(
-  primary_color = "#1335AE",
-  secondary_color = "#FF961C",
-  inverse_header_color = "#FFFFFF"
-)
+```{r xaringanExtra-share-again, echo=FALSE}
+xaringanExtra::use_share_again()
 ```
 
 
@@ -1921,9 +1916,6 @@ xaringanExtra::use_tile_view()
 ```
 
 
-```{r share-again, echo=FALSE}
-xaringanExtra::use_share_again()
-```
 
 ```{r broadcast, echo=FALSE, include=FALSE}
 xaringanExtra::use_broadcast()
