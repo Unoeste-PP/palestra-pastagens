@@ -114,7 +114,7 @@ knitr::include_graphics("images/crea_02.jpg")
 ```
 ]
 
-.footnote[Imagens: Maxwel C Oliveira - aquivo pessoal]
+.footnote[Imagens: Maxwel C Oliveira - arquivo pessoal]
 
 ---
 
