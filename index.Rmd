@@ -1474,6 +1474,7 @@ knitr::include_graphics("images/mimetiza.png")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/auxin.jpg")
 ```
+.footnote[Imagem: U of Wisconsin]
 ]
 
 
@@ -1489,9 +1490,10 @@ knitr::include_graphics("images/auxin.jpg")
 ```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/leaning.png")
 ```
+.footnote[Imagem: Maxwel C Oliveira]
 ]
 
-.footnote[Imagem: Maxwel C Oliveira]
+
 
 .pull-right[
 ```{r echo=FALSE, out.width=700, fig.align='center'}
