@@ -1,8 +1,8 @@
 ---
-title: "Manejo de Plantas Daninhas em Sistemas de Culturas Forrageiras"
-subtitle: ""  
+title: "Manejo de Plantas Daninhas em Sistemas de Gramíneas Forrageiras"
+subtitle: "🌾"  
 author: 
-  - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 - Benefícios do Manejo de Campos de Sementes Forrageiras e Grandes Sistema ILP"
+  - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 <br> Benefícios do Manejo de Campos de Sementes Forrageiras e Grandes Sistema ILP"
 
 date: '27/10/2020'
 output:
@@ -114,7 +114,7 @@ knitr::include_graphics("images/crea_02.jpg")
 ```
 ]
 
-
+.footnote[Imagens: Maxwel C Oliveira - aquivo pessoal]
 
 ---
 
@@ -125,22 +125,19 @@ knitr::include_graphics("images/crea_02.jpg")
 - Plantas daninhas?
 
     - O que são?
-    
     - Banco de sementes
-    
     - Planta daninha nos sistemas de produção
   
 - Manejo integrado de plantas daninhas
 
     - Prevenção
-    
     - Controle cultural
-    
     - Controle biológico
-    
     - Controle químico
 
-- Foco em pastagens
+- Foco em gramíneas forrageiras
+    
+    - Pastagem 
 ]
 
 
@@ -168,7 +165,7 @@ knitr::include_graphics("images/area.gif")
 knitr::include_graphics("images/area_1.png")
 ```
 
-Fonte: https://pastagem.org/ (UFG - LAPIG)
+.footnote[Fonte: https://pastagem.org/ (UFG - LAPIG)]
 ]
 
 
@@ -204,6 +201,7 @@ knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-4
 ]
 
 .pull-right[
+.footnote[Imagens: CropWatch]
 ```{r echo=FALSE, out.width=850, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D733c81c2-308e-45c8-a0bb-07ee75545b70%26groupId%3D1841%26t%3D1372797454178")
 ```
@@ -220,7 +218,7 @@ knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D73
 ## O que é uma planta daninha?
 
 
-- Uma planta é daninha por que possui certas características que as diferenciam de outras plantas
+- Uma planta é daninha porque possui certas características que as diferenciam de outras plantas
 
 
 > Plantas que interferem no crescimento de plantas desejáveis e são incomumente persistentes. Eles danificam os sistemas de cultivo de alto valor, os sistemas naturais e as atividades humanas e por isso são indesejáveis
@@ -235,7 +233,10 @@ knitr::include_graphics("images/thistle.jpg")
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/poaia.jpg")
 ```
+.footnote[Imagens: Maxwel C Oliveira]
+
 ]
+
 
 
 ---
@@ -248,7 +249,7 @@ knitr::include_graphics("images/poaia.jpg")
 ```{r echo=FALSE, out.width=750, fig.align='center'}
 knitr::include_graphics("https://pbs.twimg.com/media/DjYfzYpX4AEwny5?format=jpg&name=large")
 ```
-Imagem: U of Wisconsin-Madison
+.footnote[Imagem: U of Wisconsin-Madison]
 
 ---
 
@@ -276,7 +277,7 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/picao.jpg")
 ```
-
+.footnote[Imagem: Maxwel C Oliveira]
 
 ---
 
@@ -288,6 +289,7 @@ knitr::include_graphics("images/picao.jpg")
 knitr::include_graphics("images/pastagem_weed.jpg")
 ```
 
+.footnote[Imagem: Maxwel C Oliveira]
 
 ---
 
@@ -299,7 +301,7 @@ knitr::include_graphics("images/pastagem_weed.jpg")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("https://rehagro.com.br/blog/wp-content/uploads/2018/06/plantas-toxicas-de-importancia-pecuaria4.jpg")
 ```
-Imagem: rehagro.com.br
+.footnote[Imagem: rehagro.com.br]
 ]
 
 
@@ -319,7 +321,7 @@ knitr::include_graphics("images/cafezinho.png")
 ```{r echo=FALSE, out.width=550, fig.align='center'}
 knitr::include_graphics("https://pastoextraordinario.com.br/wp-content/uploads/2018/11/Pasto_Extraordinario_Como_contolar_plantas_daninhas_nas_pastagens_MG-1024x768.png")
 ```
-Imagem: Pasto extraordinario
+.footnote[Imagem: Pasto extraordinario]
 
 ---
 
@@ -341,23 +343,6 @@ knitr::include_graphics("images/agroeco.jpg")
 ```
 
 ]
-
-
-
-
----
-
-## Sistemas de produção
-
-
-- Plantas daninhas em sistemas de produção (16 anos)
-
-```{r echo=FALSE, out.width=650, fig.align='center'}
-knitr::include_graphics("images/concenco_02.png")
-```
-Fonte: Concenço et al (2011) Dinâmica de Plantas Infestantes em Sistemas Integrados de Cultivo
-
-
 ---
 
 ## Sistemas de pastagens 
@@ -398,6 +383,25 @@ knitr::include_graphics("images/anprosem_1.jpg")
 ]
 
 
+---
+
+## Sistemas de produção
+
+
+- Plantas daninhas em sistemas de produção (16 anos)
+
+```{r echo=FALSE, out.width=650, fig.align='center'}
+knitr::include_graphics("images/concenco_02.png")
+```
+.footnote[Fonte: Concenço et al (2011) Dinâmica de Plantas Infestantes em Sistemas Integrados de Cultivo]
+
+---
+
+## O banco de sementes
+```{r echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("images/sementes.png")
+```
+.footnote[Fonte: Dr. Ricardo Vitoria Filho, Esalq]
 
 
 ---
@@ -408,13 +412,6 @@ knitr::include_graphics("images/anprosem_1.jpg")
 knitr::include_graphics("images/seedbank_2.png")
 ```
 
----
-
-## O banco de sementes
-```{r echo=FALSE, out.width=900, fig.align='center'}
-knitr::include_graphics("images/sementes.png")
-```
-Fonte: Dr. Ricardo Vitoria Filho, Esalq
 
 ---
 
@@ -436,17 +433,45 @@ knitr::include_graphics("images/contabilizando.png")
 ```
 
 
+
+---
+
+## Contabilizando as plantas daninhas
+
+- Amostragem no solo
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/TJgxOvkuFutLWhX2Or/giphy.gif")
+```
+
+.footnote[Gif: giphy.com]
+
+
+---
+
+
+## Contabilizando as plantas daninhas
+
+- Contagem de plantas daninhas em sistemas de produção
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("https://media.giphy.com/media/USVgVUitCduCP9DjKo/giphy.gif")
+```
+
+.footnote[Gif: giphy.com]
+
+
 ---
 
 ## Plantas daninhas e sistemas de produção
 
-- Os sistemas de produção não usa todos os recursos (água, nutrientes, luz, etc)
+- Os sistemas de produção não usam todos os recursos (água, nutrientes, luz, etc)
 
 - Campo de produção de sementes de *Panicum maximum* cv.Massai
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/massai.jpeg")
 ```
-Imagem: Tiago Catuchi, Unoeste
+.footnote[Imagem: Tiago Catuchi, Unoeste]
 
 ---
 
@@ -539,6 +564,7 @@ knitr::include_graphics("images/ruderal.png")
 knitr::include_graphics("images/ligula.jpg")
 ```
 
+.footnote[Imagem: Maxwel C Oliveira]
 
 ---
 
@@ -547,6 +573,18 @@ knitr::include_graphics("images/ligula.jpg")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/balao.jpg")
 ```
+
+.footnote[Imagem: Maxwel C Oliveira]
+
+---
+
+## Conhecer a planta daninha
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("http://courses.missouristate.edu/pbtrewatha/Johnsongrass9.JPG")
+```
+
+.footnote[Imagem: U of Missouri]
 
 
 ---
@@ -581,6 +619,14 @@ knitr::include_graphics("images/cert_sementes.jpg")
 
 Acesse aqui a [Lei de sementes no Brasil](http://www.planalto.gov.br/ccivil_03/LEIS/2003/L10.711.htm)
 
+---
+
+### Evitar a contaminação de sementes
+
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/anprosem_2.jpg")
+``` 
 
 
 ---
@@ -617,17 +663,15 @@ knitr::include_graphics("images/education.png")
 --
 
 
-- Limpeza de equipamentos, máquinas, colheitadoras, implementos etc
+- Elimine plantas daninhas antes da fase reprodutiva
 --
 
 
-- Elimine plantas daninhas antes da fase reprodutiva
-
-
+- Limpeza de equipamentos, máquinas, colheitadoras, implementos etc
 
 ---
 
-## Prevenção
+### Limpeza de equipamentos
 
 .pull-left[
 ```{r echo=FALSE, out.width=400, fig.align='center'}
@@ -636,13 +680,15 @@ knitr::include_graphics("images/wiscweeds.png")
 ]
 
 .pull-right[
+.footnote[Imagem: U of Nebraska-Lincoln]
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/cleaning.jpg")
 ``` 
 
-- Trabalho na U of Wisconsin demonstra a dispersão de plantas daninhas (Fonte: Nick Arneson)
-
+- Trabalho na U of Wisconsin demonstra a dispersão de plantas daninhas
 ]
+
+.footnote[Fonte: Nick Arneson]
 
 ---
 
@@ -677,12 +723,12 @@ knitr::include_graphics("images/ciganinha.jpeg")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/mowing.jpg")
 ``` 
-Imagem: i1.wp.com
+.footnote[Imagem: i1.wp.com]
 
 
 ---
 
-# Controle mecânico
+## Controle mecânico
 
 - Controle de plantas daninhas arbustivas
 
@@ -701,6 +747,7 @@ knitr::include_graphics("https://media.giphy.com/media/VNdgEiEcRalhe/giphy.gif")
 ``` 
 ]
 
+.footnote[Gif: giphy.com]
 
 ---
 
@@ -768,10 +815,35 @@ knitr::include_graphics("images/ilp_03.png")
 
 - Tiririca (*Cyperus spp*)
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=650, fig.align='center'}
 knitr::include_graphics("images/tiririca.jpg")
 ```
 
+.footnote[Imagem: Maxwel C Oliveira]
+
+---
+
+## Sistemas ILP
+
+.pull-left[
+- Benéficos econômicos 
+
+- Ciclagem de nutrientes 
+
+- Manejo de planta daninha
+
+- Diversidade de culturas
+
+- Sustentabilidade
+
+- Sequestro de C
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/ilp_4.png")
+```
+]
 
 
 ---
@@ -782,7 +854,7 @@ knitr::include_graphics("images/tiririca.jpg")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("https://topsul1.webnode.com/_files/200010668-c3abbc4a56/TopSul%20Not%C3%ADcias%20-%20Crissiumal%20-%20RS%20-%20www.topsulnoticias.com.br%20-%20%20herbicida.jpg")
 ```
-Imagem: topsul1.webnode.com
+.footnote[Imagem: topsul1.webnode.com]
 
 
 ---
@@ -821,6 +893,8 @@ knitr::include_graphics("images/selective.jpg")
 knitr::include_graphics("images/nonselective.jpg")
 ```
 ]
+
+.footnote[Imagens: U of Wisconsin-Madison]
 
 ---
 
@@ -861,11 +935,11 @@ knitr::include_graphics("images/culturas.png")
 
 ---
 
-## Herbicidas registrados para pastagens
+## Herbicidas registrados para gramíneas forrageiras
 
 - Contendo 1 ingrediente ativo
 
-| Grupo | Ingrediente ativo    | Quantidade | Produto comercial 
+| Grupo | Ingrediente ativo    | Quantidade | Produto comercial<sup>®</sup> 
 |-------------------|----------------------|:------------:|-----------------|      
 | G                 | glifosato            | 67         | Nufosate e outros |
 | O                 | 2,4-D                | 39         | DMA 806 BR e outros |
@@ -877,16 +951,16 @@ knitr::include_graphics("images/culturas.png")
 | E                 | carfentrazona-etílica| 1          | Spotlight           |
 | E                 | saflufenacil         | 1          | Heat                |
 | B                 | imazetapir           | 1          | Imazetapir 106 BR   |
-Fonte: Agrofit Mapa
+.footnote[Fonte: Agrofit Mapa]
 
 
 ---
 
-## Herbicidas registrados para pastagens
+## Herbicidas registrados para gramíneas forrageiras
 
 - Contendo 2 ou 3 ingredientes ativos
 
-| Grupo | Ingrediente ativo      | Quantidade | Produto comercial                  |
+| Grupo | Ingrediente ativo      | Quantidade | Produto comercial<sup>®</sup>                  |
 |-------------------|---------------------------|:------------:|-----------------------------|
 | O + O   | 2,4-D + picloram     | 31         |  Jacaré e outros    |
 | O + O   | fluroxipir-meptilico + picloram    |  10        | Arreio e outros    |
@@ -898,12 +972,12 @@ Fonte: Agrofit Mapa
 | O + B  | aminopiralide + metsulfurom-metilico        |    1       | Chaparral          |
 | B + B  | imazapique + imazapir                       |    1       | Kifix              |
 | O + O  | picloram + triclopir-butotilico             |   1        | Togar TB            |
-Fonte: Agrofit Mapa
+.footnote[Fonte: Agrofit Mapa]
 
 ---
 
 
-## Herbicidas para pastagens
+## Herbicidas para gramíneas forrageiras
 
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/produtos.png")
@@ -914,7 +988,7 @@ knitr::include_graphics("images/produtos.png")
 
 ## Plantas daninhas 
 
-- Plantas controladas com os herbicidas registrados para pastagens
+- Plantas controladas com os herbicidas registrados para gramíneas forrageiras
 
 - 108 espécies (89 dicot e 19 monocot)
 
@@ -974,13 +1048,18 @@ knitr::include_graphics("images/gly_drybean.jpg")
 .pull-left[
 - Herbicida não-seletivo
 
-- Dessecação/Renovação de pastagens
+- Dessecação
+
+- Renovação de pastagens
 
 - Aplicação foliar dirigida
 
 - Dose (0,5 a 2,5 kg ae ha<sup>-1</sup>)
 
 - Amplo espectro de controle
+
+    - Folhas largas
+    - Folhas estreitas
 ]
 
 
@@ -1120,10 +1199,15 @@ knitr::include_graphics("images/imazethapyr_1.jpg")
 
 
 .pull-right[
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/als_3.jpg")
 ```
+
+.footnote[Imagens: Maxwel C Oliveira]
+
 ]
+
+
 
 
 ---
@@ -1145,6 +1229,8 @@ knitr::include_graphics("images/flumetsulam_2.jpg")
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/als_2.jpg")
 ```
+
+.footnote[Imagem: Maxwel C Oliveira]
 ]
 
 
@@ -1154,7 +1240,7 @@ knitr::include_graphics("images/als_2.jpg")
 ## Grupo B (Inibidores da ALS)
 
 .pull-left[
-- **imazapique + imazapir** (Kifix<sup>®</sup> - 300 a 400 mL pc ha<sup>-1</sup>)
+- **imazapique + imazapir** (Kifix<sup>®</sup> - 300 a 400 g pc ha<sup>-1</sup>)
 
 - PÓS com pastagem formada (> 1 ano)
 
@@ -1173,8 +1259,8 @@ knitr::include_graphics("images/kifyx.png")
 
 - Uso de adjuvantes
 
-- Controle de capim-navalha (*Paspalum urvillei*)
-```{r echo=FALSE, out.width=280, fig.align='center'}
+- capim-navalha (*Paspalum urvillei*)
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/navalha.jpg")
 ```
 ]
@@ -1191,7 +1277,7 @@ knitr::include_graphics("images/navalha.jpg")
 
 - Aplicação em área total ou localizada
 
-> Controla pastagens desejáveis
+> Controla gramíneas forrageiras desejáveis
 
 
 .pull-left[
@@ -1199,6 +1285,7 @@ Gervão branco (*Croton glandulosus*)
 ```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/gervao_branco.jpg")
 ```
+
 ]
 
 .pull.right[
@@ -1207,7 +1294,10 @@ Guanxuma (*Sida* spp.)
 ```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
+.footnote[Imagem: Maxwel C Oliveira]
+
 ]
+
 
 ---
 
@@ -1242,6 +1332,8 @@ knitr::include_graphics("images/lactofen_2.jpg")
 knitr::include_graphics("images/ppo_01.png")
 ```
 ]
+
+.footnote[Imagem: Maxwel C Oliveira]
 
 ---
 
@@ -1306,7 +1398,6 @@ knitr::include_graphics("images/trapoeraba.jpg")
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/heat.png")
 ```
-
 ]
 
 
@@ -1315,7 +1406,7 @@ knitr::include_graphics("images/heat.png")
 ```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
-
+.footnote[Imagem: Maxwel C Oliveira]
 
 
 - buva (*Conyza* spp.)
@@ -1326,14 +1417,14 @@ knitr::include_graphics("images/bonariensis_03.png")
 
 ---
 
-### Saflufenacil (Heat)
+### Saflufenacil (Heat<sup>®</sup>)
 
 - Seletivo para gramíneas
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/sharpen.jpg")
 ```
-
+.footnote[Imagem: U of Wisconsin-Madison]
 
 ---
 
@@ -1366,7 +1457,7 @@ knitr::include_graphics("images/mimetiza.png")
 
 <br>
 
-> Herbicidas do grupo mimetizadores da auxina *mimetizam* o hormônio resultados em uma série de anormalidades de crescimento
+> Herbicidas do grupo mimetizadores da auxina *mimetizam* o hormônio da *auxina* resultando em uma série de anormalidades de crescimento
 
 ---
 
@@ -1405,17 +1496,19 @@ knitr::include_graphics("images/leaning.png")
 ```
 ]
 
+.footnote[Imagem: Maxwel C Oliveira]
+
 .pull-right[
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/auxin_2.jpeg")
 ```
 
-Imagem: Tiago Catuchi, Unoeste
+.footnote[Imagem: Tiago Catuchi, Unoeste]
 ]
 
 ---
 
-# Grupo O (Mimetizadores da auxina)
+## Grupo O (Mimetizadores da auxina)
 
 | Grupo | Família química            | Ingrediente ativo    |
 |-------|----------------------------|----------------------|
@@ -1429,13 +1522,13 @@ Imagem: Tiago Catuchi, Unoeste
 - Herbicidas que controlam apenas plantas de folhas largas (dicot)
 
 .pull-left[
-```{r echo=FALSE, out.width=250, fig.align='center'}
+```{r echo=FALSE, out.width=270, fig.align='center'}
 knitr::include_graphics("images/assapeixe.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=260, fig.align='center'}
+```{r echo=FALSE, out.width=290, fig.align='center'}
 knitr::include_graphics("images/agron_2.jpeg")
 ```
 ]
@@ -1584,7 +1677,7 @@ knitr::include_graphics("images/xt.png")
 
 ---
 
-# Novo herbicida
+## Novo herbicida
 
 - florpyrauxifen-benzyl + 2,4-D
 
@@ -1607,7 +1700,7 @@ Fonte: Dias et al (2020)
 ```{r echo=FALSE, out.width=1000, fig.align='center'}
 knitr::include_graphics("https://s7d4.scene7.com/is/image/dpagco/IMG_spraying_mesquite_1_Beauty_2_88-1?$textonimage_desktop$")
 ```
-Imagem: Corteva-EUA
+.footnote[Imagem: Corteva-EUA]
 
 ---
 
@@ -1616,7 +1709,7 @@ Imagem: Corteva-EUA
 ```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/aero_2.jpg")
 ```
-Imagem: Bruno C Vieira
+.footnote[Imagem: Bruno C Vieira]
 
 ---
 
@@ -1661,10 +1754,10 @@ knitr::include_graphics("images/enxada_quimica_2.png")
 - Vento
 ]
 
+<br>
 
 
-
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/drop_1.png")
 ```
 
@@ -1674,7 +1767,7 @@ knitr::include_graphics("images/drop_1.png")
 
 ### Qual bico escolher?
 
-- Qual a vazão da calda?
+- Qual a vazão dos bicos?
 
 
 .pull-left[
@@ -1697,7 +1790,7 @@ knitr::include_graphics("images/TTI.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/drop_2.png")
 ```
-Imagem: Tommy Butts, U of Arkansas
+.footnote[Imagem: Tommy Butts, U of Arkansas]
 
 ---
 
@@ -1723,7 +1816,7 @@ knitr::include_graphics("images/misapplication.jpeg")
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.gif")
 ```
-
+.footnote[Gif: giphy.com]
 ---
 
 ## Cuidados
@@ -1739,7 +1832,7 @@ knitr::include_graphics("images/picloram.png")
 .pull-right[
 ### Deriva
 - Deriva de 2,4-D/dicamba em soja
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/auxin_3.jpg")
 ```
 ]
@@ -1765,7 +1858,7 @@ knitr::include_graphics("images/jacare_toxico.png")
 
 ## Considerações finais
 
-- Manejo de plantas daninhas faz parte do sistema de produção de pastagens/sementes
+- Manejo de plantas daninhas faz parte do sistema de produção de gramíneas forrageiras/sementes
 
     - As plantas daninhas são onipresentes
 --
@@ -1773,18 +1866,14 @@ knitr::include_graphics("images/jacare_toxico.png")
 - O manejo de pastagem no Brasil permite a integração com outras culturas
 
     - Sistemas agroflorestais
-    
     - Integração lavoura pecuária
-    
     - Rotação de culturas
 --
 
-- Herbicidas facilitam o manejo de plantas daninhas em pastagens
+- Herbicidas facilitam o manejo de plantas daninhas em gramíneas forrageiras
     
     - Boas opcões de produtos químicos
-    
     - Faltam dados de posicionamento
-        
           - Qual a melhor época de aplicação?
 
 
