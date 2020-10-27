@@ -2,16 +2,22 @@
 title: "Manejo de Plantas Daninhas em Sistemas de Produção de Pastagem"
 subtitle: ""  
 author: 
-  - "Maxwel Coura Oliveira, PhD"
+  - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 - Benefícios do Manejo de Canpos de Sementes Forrageiras e Grandes Sistema ILP"
 
-date: ''
+date: '27/10/2020'
 output:
   xaringan::moon_reader:
-    css: [default, fc, robot-fonts]
+    css: ["default", "assets/css/my-theme.css", "assets/css/my-fonts.css"]
+#    css: [default, fc, robot-fonts]
     lib_dir: libs
     nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
       ratio: "16:9"
-      highlightStyle: github
+      highlightStyle: solarized-light
       highlightLines: true
       countIncrementalSlides: false
 #      beforeInit: "macros.js"
@@ -47,10 +53,25 @@ meta() %>%
     og_type = "website",
     twitter_card_type = "summary_large_image",
     twitter_creator = "@maxwelco"
-  )
+    ) %>% 
+   include_meta()
 ```
 
-# Quem sou eu?
+class: middle, center
+
+# Maxwel Coura Oliveira
+
+<img style="border-radius: 50%;" src="https://maxweeds.rbind.io/author/avatar_hu907a749d428662ca99fbd9a7b3ed6b04_596633_270x270_fill_q90_lanczos_center.jpg" width="150px"/>
+
+
+[`r icon::fa("github")` @maxwelco](https://github.com/maxwelco)  
+[`r icon::fa("twitter")` @maxwelco](https://twitter.com/maxwelco)  
+[`r icon::fa("link")` maxweeds.rbind.io](https://maxweeds.rbind.io)
+
+
+---
+
+## Quem sou eu?
 
 - Maxwel Coura Oliveira (maxweloliveira@unoeste.br)
 
@@ -72,14 +93,14 @@ meta() %>%
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/maxwel_2.jpg")
 ```
 ]
 
 ---
 
-# CREA
+## CREA
 
 - Crea Jr núcleo Diamantina, MG
 
@@ -99,7 +120,7 @@ knitr::include_graphics("images/crea_02.jpg")
 
 ---
 
-# O que vamos falar hoje?
+## O que vamos falar hoje?
 
 
 .pull-left[
@@ -133,7 +154,7 @@ knitr::include_graphics("https://media.giphy.com/media/txCo7WXCwZpmM/giphy.gif")
 
 ---
 
-# Pastagens no Brasil
+## Pastagens no Brasil
 
 
 ```{r echo=FALSE, out.width=500, fig.align='center'}
@@ -142,12 +163,14 @@ knitr::include_graphics("images/area.gif")
 
 ---
 
-# Atlas das pastagens
+## Atlas das pastagens
 
 .pull-left[
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/area_1.png")
 ```
+
+Fonte: https://pastagem.org/ (UFG - LAPIG)
 ]
 
 
@@ -158,14 +181,10 @@ knitr::include_graphics("images/area_2.png")
 ]
 
 
-Fonte: https://pastagem.org/ (UFG - LAPIG)
-
-
-
 
 ---
 
-# O que é uma planta daninha?
+## O que é uma planta daninha?
 --
 
 
@@ -178,7 +197,7 @@ Fonte: https://pastagem.org/ (UFG - LAPIG)
 
 
 .pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=450, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-450.jpg")
 ```
 
@@ -187,7 +206,7 @@ knitr::include_graphics("https://cropwatch.unl.edu/documents/Volunteer-corn-F3-4
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=850, fig.align='center'}
 knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D733c81c2-308e-45c8-a0bb-07ee75545b70%26groupId%3D1841%26t%3D1372797454178")
 ```
 
@@ -200,7 +219,7 @@ knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D73
 
 ---
 
-# O que é uma planta daninha?
+## O que é uma planta daninha?
 
 
 - Uma planta é daninha por que possui certas características que as diferenciam de outras plantas
@@ -209,35 +228,35 @@ knitr::include_graphics("https://cropwatch.unl.edu/image/image_gallery/uuid%3D73
 > Plantas que interferem no crescimento de plantas desejáveis e são incomumente persistentes. Eles danificam os sistemas de cultivo de alto valor, os sistemas naturais e as atividades humanas e por isso são indesejáveis
 
 .pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
-knitr::include_graphics("https://pbs.twimg.com/media/EeQNnXWXsAA-DzM?format=jpg&name=large")
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/thistle.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=250, fig.align='center'}
-knitr::include_graphics("https://cdn6.dissolve.com/p/D869_39_138/D869_39_138_1200.jpg")
+```{r echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("images/poaia.jpg")
 ```
 ]
 
 
 ---
 
-# Efeitos indesejáveis
+## Efeitos indesejáveis
 
 - Impacto na produtividade de plantas de alto valor 
 
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=750, fig.align='center'}
 knitr::include_graphics("https://pbs.twimg.com/media/DjYfzYpX4AEwny5?format=jpg&name=large")
 ```
 Imagem: U of Wisconsin-Madison
 
 ---
 
-# Efeitos indesejáveis
+## Efeitos indesejáveis
 
-- Impacto na produtividade de plantas de alto valor 
+- Impacto na produtividade de plantas de alto valor (Imagem: Ryan DeWerff)
 
 
 .pull-left[
@@ -252,14 +271,18 @@ knitr::include_graphics("https://pbs.twimg.com/media/DjYf0nVXgAAu8Yi?format=jpg&
 ```
 ]
 
-Fonte: Ryan DeWerff - U of Wisconsin-Madison
+---
 
+## Efeitos indesejáveis
 
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/picao.jpg")
+```
 
 
 ---
 
-# Efeitos indesejáveis
+## Efeitos indesejáveis
 
 - Impacto na produtividade de plantas de alto valor 
 
@@ -270,7 +293,7 @@ knitr::include_graphics("images/pastagem_weed.jpg")
 
 ---
 
-# Impacto em animais
+## Impacto em animais
 
 - **Veneno**: cafezinho (*Palicourea marcgravi*)
 
@@ -291,42 +314,42 @@ knitr::include_graphics("images/cafezinho.png")
 
 ---
 
-# Impacto em animais
+## Impacto em animais
 
 - **Pastejo**: Diminuição da oferta para os animais
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=550, fig.align='center'}
 knitr::include_graphics("https://pastoextraordinario.com.br/wp-content/uploads/2018/11/Pasto_Extraordinario_Como_contolar_plantas_daninhas_nas_pastagens_MG-1024x768.png")
 ```
 Imagem: Pasto extraordinario
 
 ---
 
-# Por que as plantas daninhas invadem?
+## Por que as plantas daninhas invadem?
 
 - Agroecossistemas versus Ecossistemas Naturais
 
-
+- As plantas daninhas/invasoras invadem os ecossistemas de maneira semelhante?
 .pull-left[
-```{r echo=FALSE, out.width=400, fig.align='center', fig.pos= "middle"}
+```{r echo=FALSE, out.width=380, fig.align='center', fig.pos= "middle"}
 knitr::include_graphics("images/amazon.jpeg")
 ```
 ]
 
 .pull-right[
 
-```{r echo=FALSE, out.width=550, fig.align='center', fig.pos= "middle"}
+```{r echo=FALSE, out.width=530, fig.align='center', fig.pos= "middle"}
 knitr::include_graphics("images/agroeco.jpg")
 ```
 
 ]
 
-- As plantas daninhas/invasoras invadem os ecossistemas de maneira semelhante?
+
 
 
 ---
 
-# Sistemas de produção
+## Sistemas de produção
 
 
 - Plantas daninhas em sistemas de produção (16 anos)
@@ -339,7 +362,7 @@ Fonte: Concenço et al (2011) Dinâmica de Plantas Infestantes em Sistemas Integ
 
 ---
 
-# Sistemas de pastagens 
+## Sistemas de pastagens 
 
 - Qual sistema tem maior possibilidade de invasão de plantas daninhas?
 
@@ -360,7 +383,7 @@ knitr::include_graphics("images/gado_2.jpeg")
 
 
 
-# Sistemas de pastagens 
+## Sistemas de pastagens 
 
 - Qual sistema tem maior possibilidade de invasão de plantas daninhas?
 
@@ -381,7 +404,7 @@ knitr::include_graphics("images/anprosem_1.jpg")
 
 ---
 
-# O banco de sementes
+## O banco de sementes
 
 ```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/seedbank_2.png")
@@ -389,7 +412,7 @@ knitr::include_graphics("images/seedbank_2.png")
 
 ---
 
-# O banco de sementes
+## O banco de sementes
 ```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/sementes.png")
 ```
@@ -397,7 +420,7 @@ Fonte: Dr. Ricardo Vitoria Filho, Esalq
 
 ---
 
-# O ciclo de vida de uma planta daninha anual
+## O ciclo de vida de uma planta daninha anual
 
 ```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/ciclo_2.png")
@@ -406,7 +429,7 @@ knitr::include_graphics("images/ciclo_2.png")
 
 ---
 
-# Contabilizando as plantas daninhas
+## Contabilizando as plantas daninhas
 
 
 
@@ -417,19 +440,19 @@ knitr::include_graphics("images/contabilizando.png")
 
 ---
 
-# Plantas daninhas e sistemas de produção
+## Plantas daninhas e sistemas de produção
 
 - Os sistemas de produção não usa todos os recursos (água, nutrientes, luz, etc)
 
 - Campo de produção de sementes de *Panicum maximum* cv.Massai
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/massai.jpeg")
 ```
 Imagem: Tiago Catuchi, Unoeste
 
 ---
 
-# Manejo Integrado de Plantas Daninhas (MIPD)
+## Manejo Integrado de Plantas Daninhas (MIPD)
 
 
 .pull-left[
@@ -448,7 +471,7 @@ Imagem: Tiago Catuchi, Unoeste
 
 
 .pull-right[
-```{r echo=FALSE, out.width=380, fig.align='center'}
+```{r echo=FALSE, out.width=320, fig.align='center'}
 knitr::include_graphics("images/MIPD.png")
 ```
 ]
@@ -456,33 +479,39 @@ knitr::include_graphics("images/MIPD.png")
 
 ---
 
-# Manejo Integrado de Plantas Daninhas
+## Manejo Integrado de Plantas Daninhas
 
 
-## Três princípios:
+### Três princípios:
 
+
+.pull-left[
 - Abaixar a densidade de equilíbrio para um nível tolerável
---
+
 
 
 - Reduzir a adequação relativa (e efeito) da planta daninha (aumenta a tolerância)
---
+
 
 
 - Mudar a composição das comunidades de plantas daninhas para plantas menos agressivas e fáceis de manejar
---
+
+]
 
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+.pull-right[
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/nde.png")
 ```
+]
+
 
 
 ---
 
-# Conhecer a planta daninha
+## Conhecer a planta daninha
 
-## Classificação de plantas daninhas
+### Classificação de plantas daninhas
 
 - **História da vida** - ciclo de vida, estação do crescimento, época e método de reprodução (por exemplo: verão / inverno anual, bianunal, perene)
 
@@ -493,9 +522,9 @@ knitr::include_graphics("images/ciclo.png")
 
 ---
 
-# Conhecer a planta daninha
+## Conhecer a planta daninha
 
-## Classificação de plantas daninhas
+### Classificação de plantas daninhas
 
 
 - **Classificação por estratégia evolutiva** 
@@ -504,11 +533,27 @@ knitr::include_graphics("images/ciclo.png")
 knitr::include_graphics("images/ruderal.png")
 ```
 
+---
+
+## Conhecer a planta daninha
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/ligula.jpg")
+```
 
 
 ---
 
-# Prevenção
+## Conhecer a planta daninha
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/balao.jpg")
+```
+
+
+---
+
+## Prevenção
 
 
 **Quarentena**  são usadas para isolar e previnir a propagação de plantas nocivas
@@ -526,7 +571,7 @@ knitr::include_graphics("images/cow.png")
 ---
 
 
-# Prevenção
+## Prevenção
 
 
 **Lei de sementes**  são decretadas para garantir a pureza de sementes de culturas de alto valor econômico e prevenir a dispersão de sementes de plantas daninhas
@@ -542,7 +587,7 @@ Acesse aqui a [Lei de sementes no Brasil](http://www.planalto.gov.br/ccivil_03/L
 
 ---
 
-# Prevenção
+## Prevenção
 
 
 **Educação** para prevenir a propagação de plantas daninhas requer que individuos sejam capazes de identificar espécies de plantas daninhas/invasoras.
@@ -554,9 +599,9 @@ knitr::include_graphics("images/education.png")
 
 ---
 
-# Prevenção
+## Prevenção
 
-## Precauções além de leis e regulações
+### Precauções além de leis e regulações
 
 - Não deixe plantas indesejáveis reproduzirem
 --
@@ -584,10 +629,10 @@ knitr::include_graphics("images/education.png")
 
 ---
 
-# Prevenção
+## Prevenção
 
 .pull-left[
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/wiscweeds.png")
 ``` 
 ]
@@ -596,28 +641,31 @@ knitr::include_graphics("images/wiscweeds.png")
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/cleaning.jpg")
 ``` 
+
+- Trabalho na U of Wisconsin demonstra a dispersão de plantas daninhas (Fonte: Nick Arneson)
+
 ]
 
 ---
 
-# Controle biológico
+## Controle biológico
 
 - Proposta da Embrapa Koller & Nunes (2006) para o controle de ciganinha (*Memora peregrina*)
 
 
 
 .pull-left[
-```{r echo=FALSE, out.width=270, fig.align='center'}
+```{r echo=FALSE, out.width=220, fig.align='center'}
 knitr::include_graphics("images/biologico_1.png")
 ``` 
 
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("images/biologico_2.png")
 ``` 
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=330, fig.align='center'}
+```{r echo=FALSE, out.width=280, fig.align='center'}
 knitr::include_graphics("images/ciganinha.jpeg")
 ``` 
 ]
@@ -625,10 +673,10 @@ knitr::include_graphics("images/ciganinha.jpeg")
 
 ---
 
-# Controle mecânico
+## Controle mecânico
 
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/mowing.jpg")
 ``` 
 Imagem: i1.wp.com
@@ -658,7 +706,7 @@ knitr::include_graphics("https://media.giphy.com/media/VNdgEiEcRalhe/giphy.gif")
 
 ---
 
-# Controle cultural
+## Controle cultural
 
 .pull-left[
 - Sementes sadias
@@ -676,17 +724,17 @@ knitr::include_graphics("https://media.giphy.com/media/VNdgEiEcRalhe/giphy.gif")
 - Plantas competitivas
 ]
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/gado_3.jpeg")
 ```
 
 
 ---
 
-# Sistemas ILP
+## Sistemas ILP
 
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/ilp_00.png")
 ```
 
@@ -705,7 +753,7 @@ knitr::include_graphics("images/ilp_02.png")
 
 ---
 
-# Sistemas ILP
+## Sistemas ILP
 
 - Principio do MIPD
 
@@ -716,14 +764,24 @@ knitr::include_graphics("images/ilp_02.png")
 knitr::include_graphics("images/ilp_03.png")
 ```
 
+---
+
+## Sistemas ILP
+
+- Tiririca (*Cyperus spp*)
+
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/tiririca.jpg")
+```
+
 
 
 ---
 
-# Controle químico
+## Controle químico
 
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("https://topsul1.webnode.com/_files/200010668-c3abbc4a56/TopSul%20Not%C3%ADcias%20-%20Crissiumal%20-%20RS%20-%20www.topsulnoticias.com.br%20-%20%20herbicida.jpg")
 ```
 Imagem: topsul1.webnode.com
@@ -733,9 +791,9 @@ Imagem: topsul1.webnode.com
 
 
 
-# Controle químico
+## Controle químico
 
-## Alguns conceitos básicos
+### Alguns conceitos básicos
 
 - Sistêmico vs Contato
 
@@ -746,9 +804,9 @@ knitr::include_graphics("images/herb_1.png")
 
 ---
 
-# Controle químico
+## Controle químico
 
-## Alguns conceitos básicos
+### Alguns conceitos básicos
 
 - Seletivo vs Não-seletivo
 
@@ -769,11 +827,11 @@ knitr::include_graphics("images/nonselective.jpg")
 ---
 
 
-# Classificação dos Herbicidas no Brasil
+## Classificação dos Herbicidas no Brasil
 
 - Mecanismos de ação (Folha 1) - https://maxweeds.rbind.io/post/chart/Chart_Herbicida.pdf
 
-```{r echo=FALSE, out.width=850, fig.align='center'}
+```{r echo=FALSE, out.width=650, fig.align='center'}
 knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
 ```
 
@@ -781,11 +839,11 @@ knitr::include_graphics("https://maxweeds.rbind.io/post/chart/first.png")
 
 ---
 
-# Classificação dos Herbicidas no Brasil
+## Classificação dos Herbicidas no Brasil
 
 - Combinação de herbicidas (Folha 2)
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+```{r echo=FALSE, out.width=650, fig.align='center'}
 knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
 ```
 
@@ -794,10 +852,10 @@ knitr::include_graphics("https://maxweeds.rbind.io/post/chart/second.png")
 
 ---
 
-# Controle químico no Brasil
+## Controle químico no Brasil
 
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/culturas.png")
 ```
 
@@ -805,7 +863,7 @@ knitr::include_graphics("images/culturas.png")
 
 ---
 
-# Herbicidas registrados para pastagens
+## Herbicidas registrados para pastagens
 
 - Contendo 1 ingrediente ativo
 
@@ -826,7 +884,7 @@ Fonte: Agrofit Mapa
 
 ---
 
-# Herbicidas registrados para pastagens
+## Herbicidas registrados para pastagens
 
 - Contendo 2 ou 3 ingredientes ativos
 
@@ -847,22 +905,22 @@ Fonte: Agrofit Mapa
 ---
 
 
-# Herbicidas para pastagens
+## Herbicidas para pastagens
 
-```{r echo=FALSE, out.width=1000, fig.align='center'}
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/produtos.png")
 ```
 
 
 ---
 
-# Plantas daninhas 
+## Plantas daninhas 
 
 - Plantas controladas com os herbicidas registrados para pastagens
 
 - 108 espécies (89 dicot e 19 monocot)
 
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/cloud.png")
 ```
 
@@ -895,7 +953,7 @@ knitr::include_graphics("images/glyphosate.png")
 
 ---
 
-# Grupo G (Inibidores da EPSPS)
+## Grupo G (Inibidores da EPSPS)
 
 - Herbicida sistemico
 
@@ -911,9 +969,9 @@ knitr::include_graphics("images/gly_drybean.jpg")
 
 
 
-# Grupo G (Inibidores da EPSPS)
+## Grupo G (Inibidores da EPSPS)
 
-## Glifosate (Várias formulações)
+### Glifosate (Várias formulações)
 
 .pull-left[
 - Herbicida não-seletivo
@@ -943,7 +1001,7 @@ knitr::include_graphics("images/foliar_1.png")
 
 class: inverse, center, middle
 
-# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+## Grupo C1,2 (Inibidores da Fotossíntese no FSII)
 
 tebutiuron
 
@@ -955,7 +1013,7 @@ knitr::include_graphics("images/grupo_c12.png")
 ---
 
 
-# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+## Grupo C1,2 (Inibidores da Fotossíntese no FSII)
 
 - Herbicida sistêmico (via xilema)
 
@@ -966,7 +1024,7 @@ knitr::include_graphics("images/simazine_SB.jpg")
 
 ---
 
-# Grupo C1,2 (Inibidores da Fotossíntese no FSII)
+## Grupo C1,2 (Inibidores da Fotossíntese no FSII)
 
 .pull-left[
 - tebutiuron (Graslan 100)
@@ -979,7 +1037,7 @@ knitr::include_graphics("images/simazine_SB.jpg")
 
 
 - Lobeira (*Solanum lycocarpum*)
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=320, fig.align='center'}
 knitr::include_graphics("images/lobeiro.jpeg")
 ```
 ]
@@ -987,7 +1045,7 @@ knitr::include_graphics("images/lobeiro.jpeg")
 
 .pull-right[
 - Jacarandá do campo (*Machaerium acutifolium*)
-```{r echo=FALSE, out.width=800, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/jaca_do_campo.jpeg")
 ```
 ]
@@ -996,12 +1054,12 @@ knitr::include_graphics("images/jaca_do_campo.jpeg")
 
 ---
 
-## Tebutiuron
+### Tebutiuron
 
 - Aplicação: Distribuindo-se o produto uniformemente ao redor da planta em calda ou em peletes
 
 .pull-left[
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/invasive_7.jpg")
 ```
 ]
@@ -1016,7 +1074,7 @@ knitr::include_graphics("images/invasive_9.jpg")
 
 ---
 
-## Tebutiuron
+### Tebutiuron
 
 - amarelinho (*Tecoma stans*)
 
@@ -1050,36 +1108,52 @@ knitr::include_graphics("images/grupo_b.png")
 
 ---
 
-# Grupo B (Inibidores da ALS)
+## Grupo B (Inibidores da ALS)
 
 - Herbicidas sistêmicos
 
 - Clorose, folhas roxas, retarda o crescimento, inibe raízes
 
 .pull-left[
-```{r echo=FALSE, out.width=300, fig.align='center'}
+```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/imazethapyr_1.jpg")
 ```
+]
 
-```{r echo=FALSE, out.width=300, fig.align='center'}
+
+.pull-right[
+```{r echo=FALSE, out.width=600, fig.align='center'}
+knitr::include_graphics("images/als_3.jpg")
+```
+]
+
+
+---
+
+## Grupo B (Inibidores da ALS)
+
+- Herbicidas sistêmicos
+
+- Clorose, folhas roxas, retarda o crescimento, inibe raízes
+
+.pull-left[
+```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/flumetsulam_2.jpg")
 ```
 ]
 
 
 .pull-right[
-```{r echo=FALSE, out.width=300, fig.align='center'}
-knitr::include_graphics("images/als_3.jpg")
-```
-
-```{r echo=FALSE, out.width=300, fig.align='center'}
+```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/als_2.jpg")
 ```
 ]
 
+
+
 ---
 
-# Grupo B (Inibidores da ALS)
+## Grupo B (Inibidores da ALS)
 
 .pull-left[
 - **imazapique + imazapir** (Kifix<sup>®</sup> - 300 a 400 mL pc ha<sup>-1</sup>)
@@ -1088,7 +1162,7 @@ knitr::include_graphics("images/als_2.jpg")
 
 - Pode ser observado clorose até 90 dias
 
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=270, fig.align='center'}
 knitr::include_graphics("images/kifyx.png")
 ```
 ]
@@ -1102,7 +1176,7 @@ knitr::include_graphics("images/kifyx.png")
 - Uso de adjuvantes
 
 - Controle de capim-navalha (*Paspalum urvillei*)
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=280, fig.align='center'}
 knitr::include_graphics("images/navalha.jpg")
 ```
 ]
@@ -1110,7 +1184,7 @@ knitr::include_graphics("images/navalha.jpg")
 
 ---
 
-# Grupo B (Inibidores da ALS)
+## Grupo B (Inibidores da ALS)
 
 
 - **metsulfurom-metilico** (Ally<sup>®</sup> - 6,6 a 13,3 g pc ha<sup>-1</sup> + OM)
@@ -1123,15 +1197,16 @@ knitr::include_graphics("images/navalha.jpg")
 
 
 .pull-left[
-- Gervão branco (*Croton glandulosus*)
-```{r echo=FALSE, out.width=250, fig.align='center'}
+Gervão branco (*Croton glandulosus*)
+```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/gervao_branco.jpg")
 ```
 ]
 
 .pull.right[
-- Guanxuma (*Sida* spp.)
-```{r echo=FALSE, out.width=350, fig.align='center'}
+
+Guanxuma (*Sida* spp.)
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
 ]
@@ -1144,13 +1219,13 @@ class: inverse, center, middle
 
 carfentrazona-etílica, saflufenacil
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/grupo_e.png")
 ```
 
 ---
 
-# Grupo E (Inibidores da PPO/PROTOX)
+## Grupo E (Inibidores da PPO/PROTOX)
 
 - Herbicidas de contato (foliar)
 
@@ -1159,13 +1234,13 @@ knitr::include_graphics("images/grupo_e.png")
 - Absorvidos pelas raízes
 
 .pull-left[
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/lactofen_2.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/ppo_01.png")
 ```
 ]
@@ -1174,7 +1249,7 @@ knitr::include_graphics("images/ppo_01.png")
 
 
 
-# Grupo E (Inibidores da PPO/PROTOX)
+## Grupo E (Inibidores da PPO/PROTOX)
 
 - **carfentrazona-etílica** (Spotlight<sup>®</sup> 75 a 125 mL pc ha<sup>-1</sup>)
 
@@ -1190,7 +1265,7 @@ knitr::include_graphics("images/ppo_01.png")
 
 > Aplicar em epóca de época de intenso crescimento das plantas daninhas
 
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/spotlight.png")
 ```
 
@@ -1207,7 +1282,7 @@ knitr::include_graphics("images/corda_viola.jpg")
 
 
 - trapoeraba (*Commelina* spp.)
-```{r echo=FALSE, out.width=250, fig.align='center'}
+```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/trapoeraba.jpg")
 ```
 ]
@@ -1215,7 +1290,7 @@ knitr::include_graphics("images/trapoeraba.jpg")
 
 ---
 
-# Grupo E (Inibidores da PPO/PROTOX)
+## Grupo E (Inibidores da PPO/PROTOX)
 
 
 - **saflufenacil** (Heat<sup>®</sup> 70-100 g pc ha<sup>-1</sup>)
@@ -1239,21 +1314,21 @@ knitr::include_graphics("images/heat.png")
 
 .pull-right[
 - Guanxuma (*Sida* spp.)
-```{r echo=FALSE, out.width=250, fig.align='center'}
+```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/rhombifolia_5.png")
 ```
 
 
 
 - buva (*Conyza* spp.)
-```{r echo=FALSE, out.width=250, fig.align='center'}
+```{r echo=FALSE, out.width=200, fig.align='center'}
 knitr::include_graphics("images/bonariensis_03.png")
 ```
 ]
 
 ---
 
-## Saflufenacil (Heat)
+### Saflufenacil (Heat)
 
 - Seletivo para gramíneas
 
@@ -1276,33 +1351,68 @@ knitr::include_graphics("images/mimetiza.png")
 
 ---
 
-# Grupo O (Mimetizadores da auxina)
 
+## Mimetizadores da auxina
+
+### Cinco classes de hormônios que afetam o crescimento das plantas:
+
+- **Auxinas** - estimulam o crescimento das plantas
+
+- **Citocininas** - promovem a divisão celular, efeitos variáveis
+
+- **Giberelinas** - alongamento do caule e do caule da flor, efeitos variáveis
+
+- **Etileno** - amadurecimento e maturação
+
+- **Ácido abscísico** - efeitos variados “o hormônio do estresse”
+
+<br>
+
+> Herbicidas do grupo mimetizadores da auxina *mimetizam* o hormônio resultados em uma série de anormalidades de crescimento
+
+---
+
+## Grupo O (Mimetizadores da auxina)
+
+
+.pull-left[
 - Herbicida sistêmico
+
+- Controlam plantas daninhas de folha larga
 
 - Seletivo para gramíneas
 
+- As gramíneas são tolerantes porque metabolizam rápida e irreversivelmente o ingrediente ativo em compostos não tóxicos
+]
+
+
+.pull-right[
 ```{r echo=FALSE, out.width=600, fig.align='center'}
 knitr::include_graphics("images/auxin.jpg")
 ```
+]
+
+
 
 
 
 ---
 
-# Grupo O (Mimetizadores da auxina)
+## Grupo O (Mimetizadores da auxina)
 
 
 .pull-left[
-```{r echo=FALSE, out.width=400, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/leaning.png")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/auxin_2.jpeg")
 ```
+
+Imagem: Tiago Catuchi, Unoeste
 ]
 
 ---
@@ -1321,13 +1431,13 @@ knitr::include_graphics("images/auxin_2.jpeg")
 - Herbicidas que controlam apenas plantas de folhas largas (dicot)
 
 .pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=250, fig.align='center'}
 knitr::include_graphics("images/assapeixe.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=260, fig.align='center'}
 knitr::include_graphics("images/agron_2.jpeg")
 ```
 ]
@@ -1335,7 +1445,7 @@ knitr::include_graphics("images/agron_2.jpeg")
 
 ---
 
-# Grupo 0 (Mimetizadores da auxina)
+## Grupo 0 (Mimetizadores da auxina)
 
 
 - **picloram** (Danado<sup>®</sup> - 1 a 2 L pc ha<sup>-1</sup> em 100 L)
@@ -1350,13 +1460,13 @@ knitr::include_graphics("images/agron_2.jpeg")
 
 
 .pull-left[
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/invasive_5.jpg")
 ```
 ]
 
 .pull-right[
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/invasive_4.jpg")
 ```
 ]
@@ -1364,15 +1474,15 @@ knitr::include_graphics("images/invasive_4.jpg")
 
 ---
 
-## Métodos de aplicação de hebicidas no tronco
+### Métodos de aplicação de hebicidas no tronco
 
 
 .pull-left[
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/invasive_1.jpg")
 ```
 
-```{r echo=FALSE, out.width=350, fig.align='center'}
+```{r echo=FALSE, out.width=300, fig.align='center'}
 knitr::include_graphics("images/invasive_2.jpg")
 ```
 ]
@@ -1392,7 +1502,7 @@ knitr::include_graphics("images/spray_1.jpg")
 
 ---
 
-# Grupo 0 (Mimetizadores da auxina)
+## Grupo 0 (Mimetizadores da auxina)
 
 
 .pull-left[
@@ -1404,7 +1514,7 @@ knitr::include_graphics("images/spray_1.jpg")
 
     - Específico para aplicação basal dirigida
     
-```{r echo=FALSE, out.width=300, fig.align='center'}
+```{r echo=FALSE, out.width=150, fig.align='center'}
 knitr::include_graphics("images/pindoba_2.png")
 ```   
    
@@ -1414,7 +1524,7 @@ knitr::include_graphics("images/pindoba_2.png")
 .pull-right[
 - Mistura com óleo diesel em aplicação dirigida
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=350, fig.align='center'}
 knitr::include_graphics("images/invasive_8.jpg")
 ```
 ]
@@ -1422,7 +1532,7 @@ knitr::include_graphics("images/invasive_8.jpg")
 
 ---
 
-# Controle
+## Controle
 
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/amarelinho_2.png")
@@ -1436,7 +1546,7 @@ knitr::include_graphics("images/amarelinho_1.png")
 
 ---
 
-# Grupo 0 (Mimetizadores da auxina)
+## Grupo 0 (Mimetizadores da auxina)
 
 - **aminopiralide + picloram + triclopir-butotilico** (XT<sup>®</sup> - 0,5 a 5 L pc ha<sup>-1</sup>)
 
@@ -1448,14 +1558,14 @@ knitr::include_graphics("images/amarelinho_1.png")
 
 - Pós-emergente de plantas daninhas
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/xt.png")
 ```
 
 ---
 
 
-# Grupo 0 (Mimetizadores da auxina)
+## Grupo 0 (Mimetizadores da auxina)
 
 - **fluroxipir-meptilico + aminopiralide** (Dominum<sup>®</sup> - 1 a 2,5 L pc ha<sup>-1</sup>)
 
@@ -1476,9 +1586,24 @@ knitr::include_graphics("images/xt.png")
 
 ---
 
-# Considerações com o controle químico
+# Novo herbicida
 
-## Aplicação foliar localizada/basal?
+- florpyrauxifen-benzyl + 2,4-D
+
+- Novo produto em teste
+
+- Controle de planta daninha em gramíneas forrageiras com baixas injúrias em algums espécies de leguminsas
+
+Fonte: Dias et al (2020)
+
+
+
+---
+
+
+## Considerações com o controle químico
+
+### Aplicação foliar localizada/basal?
 
 
 ```{r echo=FALSE, out.width=1000, fig.align='center'}
@@ -1488,7 +1613,7 @@ Imagem: Corteva-EUA
 
 ---
 
-## Aplicação aérea?
+### Aplicação aérea?
 
 ```{r echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("images/aero_2.jpg")
@@ -1497,7 +1622,7 @@ Imagem: Bruno C Vieira
 
 ---
 
-## Aplicação em área total?
+### Aplicação em área total?
 
 
 
@@ -1508,7 +1633,7 @@ knitr::include_graphics("images/spray.jpg")
 
 ---
 
-## Enxada química?
+### Enxada química?
 
 
 
@@ -1519,7 +1644,7 @@ knitr::include_graphics("images/enxada_quimica_2.png")
 ---
 
 
-# Tecnologia de aplicação
+## Tecnologia de aplicação
 
 
 .pull-left[
@@ -1538,44 +1663,75 @@ knitr::include_graphics("images/enxada_quimica_2.png")
 - Vento
 ]
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
-knitr::include_graphics("images/bicos.png")
-```
+
 
 
 ```{r echo=FALSE, out.width=700, fig.align='center'}
 knitr::include_graphics("images/drop_1.png")
 ```
+
 ---
 
-# Tecnologia de aplicação
+## Tecnologia de aplicação
+
+### Qual bico escolher?
+
+- Qual a vazão da calda?
+
+
+.pull-left[
+```{r echo=FALSE, out.width=800, fig.align='center'}
+knitr::include_graphics("images/bicos.png")
+```
+]
+
+.pull-right[
+```{r echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("images/TTI.png")
+```
+]
+
+
+---
+
+## Tecnologia de aplicação
+
+```{r echo=FALSE, out.width=700, fig.align='center'}
+knitr::include_graphics("images/drop_2.png")
+```
+Imagem: Tommy Butts, U of Arkansas
+
+---
+
+
+## Tecnologia de aplicação
 
 - Doses
 
 - Cobertura
 
-```{r echo=FALSE, out.width=600, fig.align='center'}
+```{r echo=FALSE, out.width=500, fig.align='center'}
 knitr::include_graphics("images/misapplication.jpeg")
 ```
 
 ---
 
-# Tecnologia de aplicação
+## Tecnologia de aplicação
 
 - Misturas de herbicidas
 
 
 
-```{r echo=FALSE, out.width=500, fig.align='center'}
+```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("https://media.giphy.com/media/XDdeAjKMIo3JFTPA8q/giphy.gif")
 ```
 
 ---
 
-# Cuidados
+## Cuidados
 
 .pull-left[
-## Residual de herbicidas (*Carryover*)
+### Residual de herbicidas
 - Picloram em café (Fonte: UFV)
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/picloram.png")
@@ -1583,7 +1739,7 @@ knitr::include_graphics("images/picloram.png")
 ]
 
 .pull-right[
-## Deriva
+### Deriva
 - Deriva de 2,4-D/dicamba em soja
 ```{r echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("images/auxin_3.jpg")
@@ -1593,13 +1749,15 @@ knitr::include_graphics("images/auxin_3.jpg")
 
 ---
 
-# Cuidados
+## Cuidados
 
 - Classificacão toxicologia/meio ambiente
 
 - Manuseio dos produtos
 
-```{r echo=FALSE, out.width=700, fig.align='center'}
+- Siga sempre a bula
+
+```{r echo=FALSE, out.width=800, fig.align='center'}
 knitr::include_graphics("images/jacare_toxico.png")
 ```
 
@@ -1607,7 +1765,7 @@ knitr::include_graphics("images/jacare_toxico.png")
 ---
 
 
-# Considerações finais
+## Considerações finais
 
 - Manejo de plantas daninhas faz parte do sistema de produção de pastagens/sementes
 
@@ -1632,20 +1790,35 @@ knitr::include_graphics("images/jacare_toxico.png")
           - Qual a melhor época de aplicação?
 
 
+---
 
+class: middle, center, inverse
+
+# Quais perguntas vocês tem?
 
 ---
 
-class: inverse, middle, center
+name: goodbye
+class: right, middle, blue
 
-# Obrigado
+
+<img style="border-radius: 50%;" src="https://maxweeds.rbind.io/author/avatar_hu907a749d428662ca99fbd9a7b3ed6b04_596633_270x270_fill_q90_lanczos_center.jpg" width="150px"/>
+
+# Obrigado!
+
+### Me encontre no...
+
+[`r icon::fa("twitter")` @maxwelco](http://twitter.com/maxwelco)  
+[`r icon::fa("github")` @maxwelco](http://github.com/maxwelco)  
+[`r icon::fa("link")` maxweeds.rbind.io/pt/](https://maxweeds.rbind.io/pt/)  
+[`r icon::fa("paper-plane")` maxweloliveira@unoeste.br](mailto:maxweloliveira@unoeste.br)
 
 
 Maxwel Coura Oliveira
 
-maxweloliveira@unoeste.br
 
-https://maxweeds.rbind.io/pt/
+
+
 
 ```{r eval=FALSE, include=FALSE}
 xaringanExtra::use_webcam()
