@@ -1,6 +1,6 @@
 ---
 title: "Manejo de Plantas Daninhas em Sistemas de Gramíneas Forrageiras"
-subtitle: "🌾"  
+subtitle: "🌾"
 author: 
   - "Maxwel Coura Oliveira, PhD <br><br> Circuito Técnico 26 e 27 <br> Benefícios do Manejo de Campos de Sementes Forrageiras e Grandes Sistema ILP"
 
